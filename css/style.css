@@ -25,14 +25,12 @@ body {
 }
 
 p, .wrapper p {
-  margin-bottom:18px;word-wrap: break-word;
+  margin-bottom:18px;
+  word-wrap: break-word;
 }
 
 .top-line {
   background:#464646 url(../img/line_fill.png) repeat;
-  /*height:10px;
-  font-size:0;
-  line-height:0;*/
   min-height:10px;
   margin:0;
   position:relative;
@@ -539,6 +537,7 @@ a.dashed-link:active {
 .nav-tabs li .item4 {
   background-position:left -175px
 }
+
 .active {
   background:url(../img/active_tab_fill.png) no-repeat;
   width:67px !important;
@@ -560,9 +559,11 @@ a.dashed-link:active {
 .active .item3 {
   background-position: -76px -59px !important
 }
+
 .active .item4 {
   background-position: -76px -175px !important
 }
+
 .tabs-page-tab-content {
   padding:17px 20px 0 78px
 }
@@ -626,7 +627,7 @@ a.dashed-link:active {
 
 .date-selection li a, .date-selection li div {
   line-height:30px;
-  border:1px solid transparent;
+  /*border:1px solid transparent;*/
   border-radius:5px;
   padding:0 9px;
   text-decoration:none;
@@ -640,11 +641,12 @@ a.dashed-link:active {
 }
 
 .selected-item div {
-  border:1px solid #E5EFEF;
+  /*border:1px solid #E5EFEF;*/
   background:#E5EFEF;
-  box-shadow:inset 0px 2px 2px #D0D9D9;
-  border-top-color:#C3CBCB;
-  color:#010101
+ box-shadow: 0 2px 2px #C3CBCB inset, 0 1px 0 rgba(255, 255, 255, 0.1);
+ 
+  /*border-top-color:#C3CBCB;*/
+  color:#010101;
 }
 
 .report-table, .arm-disarming-report {
@@ -662,30 +664,28 @@ a.dashed-link:active {
 .divider-line td, .divider td, .divider-line span {
   font-size:0;
   line-height:0;
-  overflow:hidden
 }
 
 .divider-line td {
-  height:11px
+  height:11px;padding-right:0px !important;padding-left:0 !important
 }
 
 .divider-line span {
   height:1px;
   background:#E4E4E4;
   margin-top:4px;
-  display:block
+  display:block;width:100%
 }
 
 .arm-disarming-report {
   width:100%;
-  margin-bottom:13px
+  margin-bottom:13px;margin-left:-3px
 }
 
 .arm-disarming-report td {
   vertical-align:top;
-  line-height:14px;
-  padding-top:3px;
-  padding-right:20px
+  line-height:18px;
+  padding:3px 15px 1px 3px;
 }
 
 .arm-disarming-report p {
@@ -694,11 +694,11 @@ a.dashed-link:active {
 
 .arm-disarming-report tr:hover {
   background:#FFF9B8;
-  cursor:pointer
+  
 }
 
 .arm-disarming-report tr.divider-line:hover, .arm-disarming-report tr.divider:hover {
-  cursor:auto;
+ 
   background:none
 }
 
@@ -732,11 +732,11 @@ a.dashed-link:active {
 }
 
 .cell2 {
-  width:40px
+  width:60px
 }
 
 .cell3 {
-  width:170px
+  width:180px
 }
 
 .orange-highlight {
@@ -796,5 +796,5 @@ a.dashed-link:active {
 .call-center-table p {
   width:80%;
   padding-top:2px;
-  margin:0 !important
+  margin:0 !important; text-align:left
 }
