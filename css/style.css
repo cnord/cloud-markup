@@ -9,7 +9,6 @@ body {
   color:#000;
   font:14px/18px Helvetica, Helvetica Neue, Arial, sans-serif;
   min-width:975px;
-  word-break:break-all
 }
 
 .wrapper h1, .wrapper p, .tabs, form, input, .user-form p, dl.user-summary, .navigation, .footer li, .report-table, .nav-tabs, .date-selection, .arm-disarming-report, .call-center-labels, .datepicker-calendar table.form {
@@ -408,7 +407,8 @@ dl.user-summary {
 .footer-phone {
   background:url(../img/icon_phone.png) no-repeat;
   padding-left:20px;
-  margin-left:-20px
+  margin-left:-20px;
+  display:block
 }
 
 a:hover {
@@ -425,7 +425,7 @@ a.dashed-link:active {
 }
 
 .footer .item3 {
-  width:230px !important;
+  width:250px !important;
   float:right;
   padding-right:0 !important;
   padding-left:0px !important
@@ -580,6 +580,7 @@ a.dashed-link:active {
   margin-left:-2px;
   width:100%;
   margin-top:17px !important;
+  word-break:break-all
 }
 
 .report-table td, .report-table th {
