@@ -8,7 +8,8 @@ body {
   padding:0;
   color:#000;
   font:14px/18px Helvetica, Helvetica Neue, Arial, sans-serif;
-  min-width:975px
+  min-width:975px;
+  word-break:break-all
 }
 
 .wrapper h1, .wrapper p, .tabs, form, input, .user-form p, dl.user-summary, .navigation, .footer li, .report-table, .nav-tabs, .date-selection, .arm-disarming-report, .call-center-labels, .datepicker-calendar table.form {
@@ -329,7 +330,12 @@ dl.user-summary {
 .navigation li {
   float:left;
   padding:0 10px;
-  width:300px
+  width:290px
+}
+
+.navigation li.item3 {
+  width:320px !important;
+  padding-right:0 !important
 }
 
 .navigation li p {
@@ -573,7 +579,7 @@ a.dashed-link:active {
   border-top:2px solid #fff;
   margin-left:-2px;
   width:100%;
-  margin-top:17px !important
+  margin-top:17px !important;
 }
 
 .report-table td, .report-table th {
