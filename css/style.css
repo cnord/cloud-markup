@@ -136,9 +136,6 @@ p, .wrapper p {
 input[type="text"] {
   background:#fff;
   border:none;
-  /*border:1px solid #EDEDED;
-  border-top-color:#C4C4C4;
-  border-left-color:#D1D1D1;*/
   font:14px/18px Helvetica, Helvetica Neue, Arial, sans-serif;
   padding:9px 10px 9px 10px;
   margin-right:15px;
@@ -149,7 +146,6 @@ input[type="text"] {
 }
 
 input[type="text"]:focus {
-  /*border-color: rgba(82, 168, 236, 0.8);*/
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(82, 168, 236, 0.6);
   outline: 0 none;
 }
@@ -825,24 +821,24 @@ a.dashed-link:active {
   vertical-align:middle
 }
 
-/*.date-selection-form input[type="text"]:focus {
-  width:79px
-}*/
-
 .date-selection-form input[type="button"] {
   border:none;
   background: linear-gradient(to bottom, #DDEFFF 0%, #a7d4ff 100%);
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ddefff), color-stop(100%, #a7d4ff));
   border-radius:5px;
   height:27px;
-  box-shadow:0px 1px 1px #B1B1B1;
+  box-shadow:0px 1px 0px #B1B1B1;
   overflow:visible;
-  padding:0 6px 2px 6px;
+  padding:0px 6px 1px 6px;
   cursor:pointer;
   color:#000;
-  font:14px/14px Helvetica, Helvetica Neue, Arial, sans-serif;
+  font:14px/28px Helvetica, Helvetica Neue, Arial, sans-serif;
   vertical-align:top;
   margin-left:1px
+}
+
+.button-ok {
+  width:39px
 }
 
 .datepicker {
@@ -907,7 +903,7 @@ a.dashed-link:active {
 .datepicker-title {
   margin:0 35px;
   color:#fff;
-  line-height:41px;
+  line-height:42px;
   text-align:center;
   position:relative;
   z-index:0
@@ -958,4 +954,15 @@ a.dashed-link:active {
 
 .ui-datepicker-today a, .ui-datepicker-today a:hover {
   background:#FFE050 !important
+}
+
+.loader {
+  background:url(../img/loader_fill.png) repeat-x;
+  padding-top:21px;
+  text-align:center
+}
+
+.loader img {
+  display:block;
+  margin:0 auto
 }
