@@ -933,15 +933,13 @@ a.dashed-link:active {
 
 .datepicker-calendar th {
   line-height:26px;
-  height:26px
+  height:26px;
+  font-weight:normal;
+  text-align:center
 }
 
 .datepicker-calendar td a {
   display:block
-}
-
-.datepicker-calendar th {
-  font-weight:normal
 }
 
 .datepicker-calendar td a:hover {
@@ -959,10 +957,25 @@ a.dashed-link:active {
 .loader {
   background:url(../img/loader_fill.png) repeat-x;
   padding-top:21px;
-  text-align:center
+  text-align:center;
+  padding-bottom:20px
 }
 
 .loader img {
   display:block;
   margin:0 auto
+}
+
+.alert {
+  background:url(../img/error_fill.png) repeat-x;
+  padding-top:23px;
+  color:#666
+}
+
+.alert p {
+  width:84%
+}
+
+.alert-error p strong:first-child {
+  color:#cc3131
 }

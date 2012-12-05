@@ -19,7 +19,7 @@ table {
 
 td {
   vertical-align:top;
-  padding-right:25px;
+  padding-right:23px;
   padding-bottom:5px
 }
 
@@ -61,15 +61,16 @@ input[type="button"], .light-blue-button {
   color:#000;
   font:14px/28px Helvetica, Helvetica Neue, Arial, sans-serif;
   vertical-align:top;
-  margin-left:1px
+  margin-left:1px;
+  margin-top:-6px;
 }
 
 .cell1 {
-  width:138px
+  width:159px
 }
 
 .cell2 {
-  width:35px
+  width:28px
 }
 
 .cell3 {
