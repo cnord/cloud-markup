@@ -377,29 +377,6 @@ dl.user-summary {
   color:#666 !important
 }
 
-.tab-pages .footer {
-  margin-top:0;
-  background:none;
-  padding-top:0;
-  margin-top:-2px
-}
-
-.tab-pages .bottom-fill {
-  margin-bottom:0
-}
-
-.tab-pages .bottom-fill .wrapper {
-  padding-bottom:4px
-}
-
-.tab-pages .tabs-wrapper {
-  margin-left:-79px
-}
-
-.tab-pages .fill {
-  padding-top:9px
-}
-
 .footer-phone {
   background:url(../img/icon_phone.png) no-repeat;
   padding-left:20px;
@@ -505,66 +482,6 @@ a.dashed-link:active {
 .tab-top-fill {
   background:url(../img/object_content_top_fill.png) no-repeat;
   padding-top:15px
-}
-
-.nav-tabs {
-  float:left;
-  width:56px;
-  list-style:none;
-  margin:0 2px;
-  padding-top:6px
-}
-
-.nav-tabs li {
-  clear:both;
-  height:60px;
-  margin:0 auto;
-  border-top:1px dashed #E8EFF5;
-  line-height:60px
-}
-
-.nav-tabs li a {
-  display:block;
-  background:url(../img/tab_icons.png) no-repeat left -120px;
-  height:60px
-}
-
-.nav-tabs li .item2 {
-  background-position:left top
-}
-
-.nav-tabs li .item3 {
-  background-position:left -60px
-}
-
-.nav-tabs li .item4 {
-  background-position:left -175px
-}
-
-.active {
-  background:url(../img/active_tab_fill.png) no-repeat;
-  width:67px !important;
-  height:65px !important;
-  margin:-2px -5px -4px -9px !important;
-  position:relative;
-  z-index:1;
-  border-top-color:transparent !important
-}
-
-.active a {
-  background-position:-76px -119px !important
-}
-
-.active .item2 {
-  background-position:-76px 1px !important
-}
-
-.active .item3 {
-  background-position: -76px -59px !important
-}
-
-.active .item4 {
-  background-position: -76px -175px !important
 }
 
 .tabs-page-tab-content {

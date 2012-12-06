@@ -6,6 +6,7 @@
 <link href="css/style.css" rel="stylesheet" type="text/css">
 <link href="css/tab-pages.css" rel="stylesheet" type="text/css">
 <link href="css/date-selection.css" rel="stylesheet" type="text/css">
+<link href="css/nav-tabs.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
@@ -27,9 +28,10 @@
           <div class="tab-bottom-fill">
             <div class="tab-top-fill">
               <ul class="nav-tabs">
-                <li><a href="/" class="item1"></a></li>
-                <li class="active"><a href="/" class="item2"></a></li>
-                <li><a href="/" class="item3"></a></li>
+                <li id="object-info-tab"><a href="/"></a></li>
+                <li id="arm-disarm-report-tab" class="active"><a href="/"></a></li>
+                <li id="call-center-tab"><a href="/"></a></li>
+                <!--<li id="responsible-tab"><a href="/"></a></li> -->
               </ul>
               <div class="tabs-page-tab-content">
                 <h2>Отчёт о снятиях и постановках на охрану</h2>
@@ -44,6 +46,54 @@
                     <li class="date-selection-item">
                       <div><a href="/">Август</a></div>
                     </li>
+                    <table class="arm-disarming-report">
+                      <col class="cell1">
+                      <col class="cell2">
+                      <col class="cell3">
+                      <col>
+                      <tr>
+                        <td>26 сентября, ср</td>
+                        <td>07:56</td>
+                        <td><p class="disarming">Снятие с охраны</p></td>
+                        <td>Щуплова Наталья Сергеевна</td>
+                      </tr>
+                      <tr>
+                        <td>&nbsp;</td>
+                        <td><p>07:56</p></td>
+                        <td><p class="disarming">Снятие с охраны</p></td>
+                        <td><p>Щуплова Наталья Сергеевна Щуплова Наталья Сергеевна Щуплова Наталья Сергеевна Щуплова Наталья Сергеевна</p></td>
+                      </tr>
+                      <tr class="divider">
+                        <td colspan="4"></td>
+                      </tr>
+                      <tr>
+                        <td>26 сентября, ср</td>
+                        <td><p>07:56</p></td>
+                        <td><p class="arm">Постановка на охрану</p></td>
+                        <td><p>Щуплова Наталья Сергеевна</p></td>
+                      </tr>
+                      <tr class="divider-line">
+                        <td colspan="4"><span></span></td>
+                      </tr>
+                      <tr>
+                        <td>26 сентября, ср</td>
+                        <td>07:56</td>
+                        <td><p class="disarming">Снятие с охраны</p></td>
+                        <td>Щуплова Наталья Сергеевна</td>
+                      </tr>
+                      <tr>
+                        <td>26 сентября, ср</td>
+                        <td>07:56</td>
+                        <td><p class="disarming">Снятие с охраны</p></td>
+                        <td>Щуплова Наталья Сергеевна</td>
+                      </tr>
+                      <tr>
+                        <td>&nbsp;</td>
+                        <td><p>07:56</p></td>
+                        <td><p class="disarming">Снятие с охраны</p></td>
+                        <td><p>Щуплова Наталья Сергеевна</p></td>
+                      </tr>
+                    </table>
                     <li class="date-selection-selected-item">
                       <div><a href="/">Свой интервал</a></div>
                     </li>
@@ -125,54 +175,6 @@
                       </form>
                     </li>
                   </ul>
-                  <table class="arm-disarming-report">
-                    <col class="cell1">
-                    <col class="cell2">
-                    <col class="cell3">
-                    <col>
-                    <tr>
-                      <td>26 сентября, ср</td>
-                      <td>07:56</td>
-                      <td><p class="disarming">Снятие с охраны</p></td>
-                      <td>Щуплова Наталья Сергеевна</td>
-                    </tr>
-                    <tr>
-                      <td>&nbsp;</td>
-                      <td><p>07:56</p></td>
-                      <td><p class="disarming">Снятие с охраны</p></td>
-                      <td><p>Щуплова Наталья Сергеевна Щуплова Наталья Сергеевна Щуплова Наталья Сергеевна Щуплова Наталья Сергеевна</p></td>
-                    </tr>
-                    <tr class="divider">
-                      <td colspan="4"></td>
-                    </tr>
-                    <tr>
-                      <td>26 сентября, ср</td>
-                      <td><p>07:56</p></td>
-                      <td><p class="arm">Постановка на охрану</p></td>
-                      <td><p>Щуплова Наталья Сергеевна</p></td>
-                    </tr>
-                    <tr class="divider-line">
-                      <td colspan="4"><span></span></td>
-                    </tr>
-                    <tr>
-                      <td>26 сентября, ср</td>
-                      <td>07:56</td>
-                      <td><p class="disarming">Снятие с охраны</p></td>
-                      <td>Щуплова Наталья Сергеевна</td>
-                    </tr>
-                    <tr>
-                      <td>26 сентября, ср</td>
-                      <td>07:56</td>
-                      <td><p class="disarming">Снятие с охраны</p></td>
-                      <td>Щуплова Наталья Сергеевна</td>
-                    </tr>
-                    <tr>
-                      <td>&nbsp;</td>
-                      <td><p>07:56</p></td>
-                      <td><p class="disarming">Снятие с охраны</p></td>
-                      <td><p>Щуплова Наталья Сергеевна</p></td>
-                    </tr>
-                  </table>
                   <div class="loader"><img src="img/loader.png" alt=""></div>
                   <div class="alert alert-error">
                     <p><strong>Ошибка!</strong> Вы выбрали слишкой большой интервал времени для фомирования отчета.
