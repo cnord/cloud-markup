@@ -591,7 +591,7 @@ a.dashed-link:active {
   margin-bottom:4px
 }
 
-.arm-disarming-report tr:hover {
+.arm-disarming-report tr:hover td {
   background:#FFF9B8;
 }
 
@@ -728,7 +728,7 @@ a.dashed-link:active {
   margin-top:-2px;
 }
 
-.light-blue-btn:hover {
+.light-blue-btn:active {
   background: linear-gradient(to bottom, #B2D2F1 0%, #D7EAFA 100%);
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #B2D2F1), color-stop(100%, #D7EAFA));
   box-shadow:inset 1px 1px 0px #A5C5E4;
@@ -757,4 +757,8 @@ a.dashed-link:active {
 .load-more-wrapper {
   padding-top:10px !important;
   padding-right:0 !important
+}
+
+tr:hover td.load-more-wrapper {
+  background:none !important
 }
