@@ -7,7 +7,8 @@ body {
   margin:0;
   padding:0;
   color:#000;
-  font:14px/18px Helvetica, Helvetica Neue, Arial, sans-serif;
+  font:14px/18px Helvetica, "Helvetica Neue", Arial, sans-serif;
+  ;
   min-width:975px;
 }
 
@@ -62,7 +63,7 @@ p, .wrapper p {
 }
 
 .wrapper h1 {
-  font:bold 36px/36px Calibri, "Trebuchet MS", Helvetica, Arial, sans-serif;
+  font:bold 36px/36px Calibri, Helvetica, Arial, sans-serif;
   margin-bottom:27px;
   color:#000;
   padding-top:35px
@@ -83,7 +84,6 @@ p, .wrapper p {
 
 .tabs {
   color:#444;
-  font:14px Helvetica, Helvetica Neue, Arial, sans-serif;
   list-style:none;
   padding-left:15px;
   height:1%;
@@ -136,7 +136,7 @@ p, .wrapper p {
 input[type="text"] {
   background:#fff;
   border:none;
-  font:14px/18px Helvetica, Helvetica Neue, Arial, sans-serif;
+  font:14px/18px Helvetica, "Helvetica Neue", Helvetica, Arial, sans-serif;
   padding:9px 10px 9px 10px;
   margin-right:15px;
   position:relative;
@@ -226,7 +226,7 @@ placeholder {
   border:none;
   color:#e0eaee;
   cursor:pointer;
-  font:14px/37px Helvetica, Helvetica Neue, Arial, sans-serif;
+  font:14px/37px Helvetica, "Helvetica Neue", Helvetica, Arial, sans-serif;
   padding:0px 18px 3px 18px;
   text-align:center;
   outline:none;
@@ -308,7 +308,8 @@ dl.user-summary {
   font-size:24px;
   margin-top:1px;
   margin-bottom:14px;
-  font-family:Calibri
+  font-family:Calibri, Helvetica, Arial, sans-serif;
+  line-height:24px
 }
 
 .tabs-page-tab-content h2 {
@@ -325,7 +326,11 @@ dl.user-summary {
 .navigation li {
   float:left;
   padding:0 10px;
-  width:290px
+  width:289px
+}
+
+.navigation li.item2 {
+  width:290px !important;
 }
 
 .navigation li.item3 {
@@ -394,7 +399,7 @@ a.dashed-link:active {
 
 .footer .item2 {
   float:none;
-  margin:0 220px 0 320px
+  margin:0 220px 0 310px
 }
 
 .footer .item3 {
@@ -693,18 +698,6 @@ a.dashed-link:active {
   text-align:left
 }
 
-.loader {
-  background:url(../img/loader_fill.png) repeat-x;
-  padding-top:21px;
-  text-align:center;
-  padding-bottom:20px
-}
-
-.loader img {
-  display:block;
-  margin:0 auto
-}
-
 .alert {
   background:url(../img/error_fill.png) repeat-x;
   padding-top:23px;
@@ -712,9 +705,26 @@ a.dashed-link:active {
 }
 
 .alert p {
-  width:84%
+  width:84%;
+  margin-bottom:11px
 }
 
 .alert-error p strong:first-child {
   color:#cc3131
+}
+
+.light-blue-btn {
+  border:none;
+  background: linear-gradient(to bottom, #DDEFFF 0%, #a7d4ff 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ddefff), color-stop(100%, #a7d4ff));
+  border-radius:5px;
+  height:24px;
+  box-shadow:0px 1px 1px #B1B1B1;
+  overflow:visible;
+  padding:0px 6px 1px 6px;
+  cursor:pointer;
+  color:#000;
+  font:bold 12px/26px Helvetica, Helvetica Neue, Arial, sans-serif;
+  vertical-align:top;
+  margin-top:-2px;
 }

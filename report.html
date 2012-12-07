@@ -7,6 +7,7 @@
 <link href="css/tab-pages.css" rel="stylesheet" type="text/css">
 <link href="css/date-selection.css" rel="stylesheet" type="text/css">
 <link href="css/nav-tabs.css" rel="stylesheet" type="text/css">
+<link href="css/loader.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
@@ -34,7 +35,9 @@
                 <!--<li id="responsible-tab"><a href="/"></a></li> -->
               </ul>
               <div class="tabs-page-tab-content">
-                <h2>Отчёт о снятиях и постановках на охрану</h2>
+                <div class="tabs-switching-loader">
+                  <h2><span>Отчёт о снятиях и постановках на охрану Отчёт о снятиях и постановках на охрану о снятиях и постановках</span></h2>
+                </div>
                 <div class="report-wrapper"><a href="/" class="print-version pull-right">Версия для&nbsp;печати</a>
                   <ul class="date-selection">
                     <li class="date-selection-item">
@@ -176,9 +179,13 @@
                     </tr>
                   </table>
                   <div class="loader"><img src="img/ajax-loader.gif" alt=""></div>
+                  <div class="loader">
+                    <input type="button" class="light-blue-btn load-more-btn" value="Загрузить ещё">
+                  </div>
                   <div class="alert alert-error">
                     <p><strong>Ошибка!</strong> Вы выбрали слишкой большой интервал времени для фомирования отчета.
                       Допускается построение отчета максимум, за три месяца.</p>
+                    <input type="button" class="light-blue-btn load-more-btn" value="Попробовать загрузить ещё">
                   </div>
                 </div>
               </div>
