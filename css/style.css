@@ -8,7 +8,6 @@ body {
   padding:0;
   color:#000;
   font:14px/18px Helvetica, "Helvetica Neue", Arial, sans-serif;
-  ;
   min-width:975px;
 }
 
@@ -718,13 +717,19 @@ a.dashed-link:active {
   background: linear-gradient(to bottom, #DDEFFF 0%, #a7d4ff 100%);
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ddefff), color-stop(100%, #a7d4ff));
   border-radius:5px;
-  height:24px;
-  box-shadow:0px 1px 1px #B1B1B1;
+  height:27px;
+  box-shadow:0px 1px 0px #B1B1B1;
   overflow:visible;
   padding:0px 6px 1px 6px;
   cursor:pointer;
   color:#000;
-  font:bold 12px/26px Helvetica, Helvetica Neue, Arial, sans-serif;
+  font:14px/28px Helvetica, Helvetica Neue, Arial, sans-serif;
   vertical-align:top;
   margin-top:-2px;
+}
+
+.light-blue-btn:hover {
+  background: linear-gradient(to bottom, #B2D2F1 0%, #D7EAFA 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #B2D2F1), color-stop(100%, #D7EAFA));
+  box-shadow:inset 1px 1px 0px #A5C5E4;
 }
