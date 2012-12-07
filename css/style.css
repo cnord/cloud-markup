@@ -595,7 +595,7 @@ a.dashed-link:active {
   background:#FFF9B8;
 }
 
-.arm-disarming-report tr.divider-line:hover, .arm-disarming-report tr.divider:hover {
+.arm-disarming-report tr.divider-line:hover td, .arm-disarming-report tr.divider:hover td{
   background:none
 }
 
