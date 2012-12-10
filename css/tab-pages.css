@@ -35,7 +35,7 @@
 
 .tab-bottom-fill {
   background:url(../img/object_content_bottom_fill.png) no-repeat left bottom;
-  padding-bottom:42px
+  padding-bottom:37px
 }
 
 .tab-top-fill {
@@ -403,7 +403,7 @@
 
 .arm-disarming-report {
   width:100%;
-  margin-bottom:13px;
+  /*margin-bottom:13px;*/
   margin-left:-3px
 }
 
