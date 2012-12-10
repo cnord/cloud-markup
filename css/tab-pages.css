@@ -21,3 +21,493 @@
 .tab-pages-wrapper .fill {
   padding-top:9px
 }
+
+.tabs-wrapper, .tab-bottom-fill, .tab-top-fill {
+  width:942px;
+  float:left
+}
+
+.tabs-wrapper {
+  background:url(../img/object_content_fill.png) repeat-y;
+  width:942px;
+  margin-bottom:17px
+}
+
+.tab-bottom-fill {
+  background:url(../img/object_content_bottom_fill.png) no-repeat left bottom;
+  padding-bottom:42px
+}
+
+.tab-top-fill {
+  background:url(../img/object_content_top_fill.png) no-repeat;
+  padding-top:15px
+}
+
+.tabs-page-tab-content {
+  padding:17px 20px 0 78px
+}
+
+.nav-tabs {
+  float:left;
+  width:56px;
+  list-style:none;
+  margin:0 2px;
+  padding-top:6px
+}
+
+.nav-tabs li {
+  clear:both;
+  height:60px;
+  margin:0 auto;
+  border-top:1px dashed #E8EFF5;
+  line-height:60px
+}
+
+.nav-tabs li a {
+  display:block;
+  background-image:url(../img/tab_icons.png);
+  background-repeat: no-repeat;
+  height:60px
+}
+
+#object-info-tab a {
+  background-position:left -120px;
+}
+
+#arm-disarm-report-tab a {
+  background-position:left top
+}
+
+#responsible-tab a {
+  background-position:left -60px
+}
+
+#call-center-tab a {
+  background-position:left -175px
+}
+
+#object-info-tab.active a {
+  background-position:-76px -119px !important
+}
+
+#arm-disarm-report-tab.active a {
+  background-position:-76px 1px !important
+}
+
+#responsible-tab.active .item3 {
+  background-position: -76px -59px !important
+}
+
+#call-center-tab.active a {
+  background-position: -76px -175px !important
+}
+
+.active {
+  background:url(../img/active_tab_fill.png) no-repeat;
+  width:67px !important;
+  height:65px !important;
+  margin:-2px -5px -4px -9px !important;
+  position:relative;
+  z-index:1;
+  border-top-color:transparent !important
+}
+
+.tabs-page-tab-content h2 {
+  color:#000;
+  margin-top:1px;
+  margin-bottom:12px;
+  font:24px/24px Calibri, Helvetica, Arial, sans-serif;
+}
+
+.report-table {
+  border-top:2px solid #fff;
+  margin-left:-2px;
+  width:100%;
+  margin-top:17px !important;
+  word-break:break-all
+}
+
+.report-table td, .report-table th {
+  border-top:1px solid #E4E4E4;
+  vertical-align:top;
+  text-align:left;
+  margin-top:-1px;
+  color:#000;
+  padding:9px 40px 11px 4px
+}
+
+.report-table th {
+  color:#666;
+  font-weight:normal;
+  width:151px;
+  padding-right:4px
+}
+
+.report-table td p {
+  margin-bottom:11px
+}
+
+.report-table:first-child, .nav-tabs li:first-child {
+  border-top:none
+}
+
+.report-table, .arm-disarming-report {
+  color:#444
+}
+
+.map {
+  padding:0 !important
+}
+
+#map {
+  margin-left:17px
+}
+
+.ymaps-map {
+  border-radius:5px
+}
+
+.inner-text {
+  width:70%
+}
+
+.report-wrapper {
+  width:705px;
+  position:relative;
+  margin-top:22px
+}
+
+.print-version {
+  background:url(../img/print_version_icon.png) no-repeat;
+  padding-left:41px;
+  display:inline-block;
+  width:75px;
+  padding-top:3px
+}
+
+.report-wrapper .print-version {
+  position:absolute;
+  left:722px;
+  top:0
+}
+
+.date-selection {
+  padding-bottom:19px;
+  height:28px
+}
+
+.date-selection li {
+  float:left;
+  vertical-align:top
+}
+
+.date-selection a {
+  text-decoration:none
+}
+
+.date-selection-selected-item div {
+  line-height:30px;
+  border-radius:5px;
+  padding:0 9px;
+  height:28px;
+  background:#E5EFEF;
+  box-shadow: 0 2px 2px #C3CBCB inset, 0 1px 0 rgba(255, 255, 255, 0.1);
+  color:#010101;
+}
+
+.date-selection-selected-item a {
+  border:none;
+  color:#000;
+  cursor:auto
+}
+
+.date-selection-item a {
+  text-decoration:none;
+  display:inline-block;
+  margin:0 9px;
+  line-height:14px;
+  padding-top:8px;
+}
+
+.date-selection-item a {
+  border-bottom-width:1px;
+  border-bottom-style:dashed;
+  text-decoration:none;
+  display:inline-block;
+  line-height:14px
+}
+
+.date-selection-form {
+  background:url(../img/date_selection_icon.png) no-repeat left center;
+  padding-left:7px;
+  margin-left:8px;
+  height:28px
+}
+
+.date-selection-form input[type="text"] {
+  width:78px;
+  padding-top:6px;
+  padding-bottom:5px;
+  margin-right:5px;
+  margin-left:5px;
+  padding-left:9px;
+  border:none;
+  vertical-align:middle
+}
+
+.date-selection-form input[type="button"] {
+  margin-left:1px;
+  width:39px
+}
+
+/*calendar*/
+.datepicker {
+  position:absolute;
+  left:5px;
+  top:38px;
+  border-radius:5px;
+  z-index:1;
+  width:214px;
+  box-shadow:0px 2px 7px #B1B1B1;
+  height:auto !important;
+  padding:0 !important
+}
+
+.datepicker-wrapper {
+  display:inline-block;
+  position:relative;
+  height:28px;
+  vertical-align:top;
+  float:left
+}
+
+.datepicker-calendar {
+  background:#fff url(../img/datepicker_top_fill.png) no-repeat;
+  padding:8px 10px 9px 10px;
+  border-radius:0 0 5px 5px
+}
+
+.datepicker-header {
+  position:relative;
+  background:url(../img/datepicker_header.png) no-repeat;
+  height:39px;
+  width:214px;
+  margin-top:-5px
+}
+
+.date-selection-form a, .datepicker-calendar td a {
+  border-radius:0;
+  padding:0
+}
+
+.datepicker-header a {
+  position:absolute;
+  height:15px !important;
+  width:18px;
+  background:url(../img/calendar_title_nav.png) no-repeat;
+  top:15px;
+  display:block;
+  padding:0 !important;
+  z-index:1
+}
+
+.datepicker-next {
+  background-position:right top !important;
+  right:8px
+}
+
+.datepicker-prev {
+  left:7px
+}
+
+.datepicker-title {
+  margin:0 35px;
+  color:#fff;
+  line-height:42px;
+  text-align:center;
+  position:relative;
+  z-index:0
+}
+
+.datepicker-month {
+  display:inline-block;
+  margin:0 auto;
+  line-height:43px;
+  font:14px helvetica
+}
+
+.datepicker-calendar {
+  color:#000
+}
+
+.datepicker-calendar td, .datepicker-calendar td a {
+  padding:0 !important;
+  line-height:28px;
+  height:28px !important;
+  width:28px !important;
+  text-align:center;
+  vertical-align:middle;
+  color:#000;
+  text-decoration:none;
+}
+
+.datepicker-calendar th {
+  line-height:26px;
+  height:26px;
+  font-weight:normal;
+  text-align:center
+}
+
+.datepicker-calendar td a {
+  display:block
+}
+
+.datepicker-calendar td a:hover {
+  background:#DCDCDC
+}
+
+.ui-datepicker-other-month a {
+  color:#999 !important
+}
+
+.ui-datepicker-today a, .ui-datepicker-today a:hover {
+  background:#FFE050 !important
+}
+
+.disarming {
+  color:#449a2d
+}
+
+.arm {
+  color:#317ea6
+}
+
+.divider-line td, .divider td, .divider-line span {
+  font-size:0;
+  line-height:0;
+}
+
+.divider-line td {
+  height:11px;
+  padding-right:0px !important;
+  padding-left:0 !important
+}
+
+.divider-line span {
+  height:1px;
+  background:#E4E4E4;
+  margin-top:4px;
+  display:block;
+  width:100%
+}
+
+.arm-disarming-report {
+  width:100%;
+  margin-bottom:13px;
+  margin-left:-3px
+}
+
+.arm-disarming-report td {
+  vertical-align:top;
+  line-height:18px;
+  padding:3px 15px 1px 3px;
+}
+
+.arm-disarming-report p {
+  margin-bottom:4px
+}
+
+.arm-disarming-report tr:hover td {
+  background:#FFF9B8;
+}
+
+.arm-disarming-report tr.divider-line:hover td, .arm-disarming-report tr.divider:hover td {
+  background:none
+}
+
+.divider td {
+  height:15px;
+  padding:0 !important
+}
+
+.cell1 {
+  width:160px
+}
+
+.cell2 {
+  width:60px
+}
+
+.cell3 {
+  width:180px
+}
+
+.load-more-wrapper {
+  padding-top:10px !important;
+  padding-right:0 !important
+}
+
+tr:hover td.load-more-wrapper {
+  background:none !important
+}
+
+.call-center-labels {
+  margin-bottom:35px;
+  margin-top:-2px
+}
+
+.call-center-labels .label {
+  margin-right:10px
+}
+
+.call-center-labels li {
+  margin-bottom:5px
+}
+
+.call-center-table {
+  margin-top:-3px !important
+}
+
+.call-center-table .cell2 {
+  width:50%
+}
+
+.call-center-table td {
+  line-height:18px
+}
+
+.call-center-table .label {
+  margin-left:2px
+}
+
+.call-center-table p {
+  width:80%;
+  padding-top:2px;
+  margin:0 !important;
+  text-align:left
+}
+
+.label {
+  background: url(../img/label_fill.png) repeat;
+  border:1px solid #A6BAE8;
+  display:inline-block;
+  height:20px;
+  width:20px;
+  line-height:20px;
+  text-align:center;
+  border-radius:5px;
+  font-weight:bold
+}
+
+.pin-code {
+  color:#666;
+  margin-right:8px
+}
+
+.change {
+  margin-left:20px
+}
+
+.orange-highlight {
+  background:#FFE27D
+}
