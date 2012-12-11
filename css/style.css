@@ -334,10 +334,6 @@ a.dashed-link:active {
   padding-bottom:32px
 }
 
-.error-content {
-  padding-bottom:68px
-}
-
 .hide {
   display:none
 }
@@ -416,7 +412,7 @@ a.dashed-link:active {
 .loader, .load-more {
   background:url(../img/loader_fill.png) repeat-x;
   padding-top:21px;
-  text-align:center;/*padding-bottom:20px;*/
+  text-align:center;
 }
 
 .loader img {
@@ -462,7 +458,7 @@ a.dashed-link:active {
 #report-armed-disarming p {
   background-image:url(../img/icon1.png);
   background-position:2px top;
-  /*padding-left:91px*/padding-right:20px
+  padding-right:20px
 }
 
 #editing-responsible p {
@@ -472,4 +468,8 @@ a.dashed-link:active {
 
 #object-card p {
   background-image:url(../img/icon3.png)
+}
+
+.inner-text {
+  width:60%
 }
