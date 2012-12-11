@@ -128,7 +128,7 @@ input[type="text"] {
   margin-right:15px;
   position:relative;
   border-radius:4px;
-  box-shadow:inset 2px 3px 4px #C4C4C4, inset -1px -1px 2px #C4C4C4;
+  box-shadow:inset 2px 2px 3px #C4C4C4, inset -1px -1px 1px #EDEDED;
   height:19px
 }
 
