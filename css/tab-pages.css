@@ -435,7 +435,8 @@
 .cell1 {
   width:160px
 }
-
+.call-center-table .cell1{width:auto}
+.call-center-table .cell2{width:443px !important}
 .cell2 {
   width:60px
 }
