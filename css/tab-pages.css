@@ -125,7 +125,7 @@
   margin-left:-2px;
   width:100%;
   margin-top:17px !important;
-  word-break:break-all
+  word-break:break-strict
 }
 
 .report-table td, .report-table th {

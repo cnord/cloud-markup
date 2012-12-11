@@ -11,12 +11,12 @@ body {
   min-width:975px;
 }
 
-.wrapper h1, .wrapper p, .tabs, form, input, .user-form p, dl.user-summary, .navigation, .footer li, .report-table, .nav-tabs, .date-selection, .arm-disarming-report, .call-center-labels, .datepicker-calendar table.form {
+.wrapper h1, .wrapper p, .tabs, form, input, .user-form p, dl.user-summary, .features-wrapper ul, .footer li, .report-table, .nav-tabs, .date-selection, .arm-disarming-report, .call-center-labels, .datepicker-calendar table.form {
   padding:0;
   margin:0
 }
 
-.date-selection, .call-center-labels {
+.date-selection, .call-center-labels, .features-wrapper ul {
   list-style:none
 }
 
@@ -27,6 +27,7 @@ body {
 p, .wrapper p {
   margin-bottom:18px;
   word-wrap: break-word;
+  word-break:break-strict
 }
 
 .top-line {
@@ -68,7 +69,7 @@ p, .wrapper p {
   padding-top:35px
 }
 
-.wrapper, .navigation-wrapper {
+.wrapper {
   margin:0 auto;
   width:870px;
   clear:both;
@@ -127,8 +128,8 @@ input[type="text"] {
   margin-right:15px;
   position:relative;
   border-radius:4px;
-  box-shadow:inset 0px 3px 7px #C4C4C4;
-  height:18px
+  box-shadow:inset 2px 3px 4px #C4C4C4, inset -1px -1px 2px #C4C4C4;
+  height:19px
 }
 
 input[type="text"]:focus {
@@ -151,7 +152,7 @@ placeholder {
   background:url(../img/error_corner.png) no-repeat left center;
   display:inline-block;
   padding-left:10px;
-  top:1px;
+  top:0px;
   white-space:nowrap;
   color:#fff
 }
@@ -274,76 +275,49 @@ a {
   line-height:24px
 }
 
-.navigation {
-  list-style:none;
-  margin-left:-90px;
-  display:inline-block
-}
-
-.navigation li {
+.footer {
+  clear:both;
+  background:url(../img/footer_fill.png) repeat-x;
+  padding-bottom:40px;
+  margin-top:58px;
   float:left;
-  padding:0 10px;
-  width:289px
+  font-size:13px;
+  color:#666 !important;
+  width:100%
 }
 
-.navigation li.item2 {
-  width:310px !important;
-}
-
-.navigation li.item3 {
-  width:311px !important;
-  padding-right:0 !important
-}
-
-.navigation li p {
-  background-repeat: no-repeat;
-  display:inline-block;
-  padding:2px 20px 0 80px;
-  color:#444;
-  text-decoration:none;
-  margin:0;
-  min-height:55px;
-}
-
-.navigation .item1 p {
-  background-image:url(../img/icon1.png)
-}
-
-.navigation .item2 p {
-  background-image:url(../img/icon2.png)
-}
-
-.navigation .item3 p {
-  background-image:url(../img/icon3.png)
+.footer-info-wrapper {
+  margin:0 auto;
+  width:960px;
+  text-align:center;
+  padding-top:15px
 }
 
 .footer ul {
   list-style:none;
-  margin-left:-50px
+  width:960px;
+  margin-left:-42px
 }
 
 .footer li {
   float:left;
-  width:300px;
-  padding:4px 10px 0 10px
-}
-
-.footer {
-  clear:both;
-  background:url(../img/footer_fill.png) repeat-x;
-  float:left;
-  padding-bottom:40px;
-  margin-top:58px;
-  width:100%;
-  font-size:13px;
-  color:#666 !important
+  width:220px !important;
+  text-align:left;
+  padding:0 10px 0 90px
 }
 
 .footer-phone {
   background:url(../img/icon_phone.png) no-repeat;
-  padding-left:20px;
-  margin-left:-20px;
+  padding-left:19px;
+  margin-left:-19px;
   display:block
+}
+
+.footer-info-middle-cell {
+  float:none !important;
+  margin:0 300px 0 411px !important;
+  width:auto !important;
+  padding:0 !important
 }
 
 a:hover {
@@ -352,26 +326,6 @@ a:hover {
 
 a.dashed-link:active {
   color:#000
-}
-
-.footer .item2 {
-  float:none;
-  margin:0 220px 0 310px
-}
-
-.footer .item3 {
-  width:250px !important;
-  float:right;
-  padding-right:0 !important;
-  padding-left:0px !important
-}
-
-.navigation-wrapper {
-  padding-top:10px
-}
-
-.footer .navigation-wrapper {
-  position:relative
 }
 
 .wrapper {
@@ -392,7 +346,7 @@ a.dashed-link:active {
 }
 
 .pull-right {
-  float:right
+  float:right !important
 }
 
 .top-line .navbar {
@@ -473,4 +427,47 @@ a.dashed-link:active {
   padding-right:47px;
   min-height:35px;
   padding-bottom:3px
+}
+
+.features-wrapper {
+  width:960px;
+  clear:both;
+  margin:0 auto;
+  padding-top:9px
+}
+
+.features-wrapper ul {
+  margin-left:-4px
+}
+
+.features-wrapper li {
+  float:left;
+  padding:0 10px;
+  width:300px;
+  text-align:left
+}
+
+.features-wrapper li p {
+  background-repeat: no-repeat;
+  display:inline-block;
+  padding:2px 5px 0 82px;
+  color:#444;
+  text-decoration:none;
+  margin:0;
+  min-height:55px;
+}
+
+#report-armed-disarming p {
+  background-image:url(../img/icon1.png);
+  background-position:2px top;
+  /*padding-left:91px*/padding-right:20px
+}
+
+#editing-responsible p {
+  background-image:url(../img/icon2.png);
+  padding-right:20px
+}
+
+#object-card p {
+  background-image:url(../img/icon3.png)
 }
