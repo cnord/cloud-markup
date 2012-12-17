@@ -145,7 +145,7 @@
 }
 
 .report-table td p {
-  margin-bottom:11px
+  margin:5px 0 6px 0
 }
 
 .report-table:first-child, .nav-tabs li:first-child {
@@ -516,4 +516,7 @@ tr:hover td.load-more-wrapper {
 
 .orange-highlight {
   background:#FFE27D
+}
+.inner-text {
+  color:#444
 }

@@ -257,7 +257,8 @@ placeholder {
   display:inline-block;
   line-height:14px
 }
-
+.link-black-color{color:#000}
+.link-black-color:hover{color:#666}
 .right-cell {
   float:left;
   width:430px;
@@ -324,10 +325,6 @@ a {
 
 a:hover {
   color:#519cef
-}
-
-a.dashed-link:active {
-  color:#000
 }
 
 .wrapper {
