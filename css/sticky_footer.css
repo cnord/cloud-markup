@@ -1,0 +1,21 @@
+
+/* CSS Document */
+html, body {
+  height:100%
+}
+
+.tab-pages-wrapper {
+  height: auto !important;
+  margin: 0 auto -95px;
+  min-height: 100%; background:url(../img/background.png) repeat
+}
+.wrapper{padding-bottom:0px}
+.footer, #push {
+  height:95px
+}
+
+.footer {
+  background:#fff url(../img/back_bottom.png) repeat-x;
+  padding:2px 0 0 0;
+  margin:0;
+}
