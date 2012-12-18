@@ -6,22 +6,27 @@ html, body {
 
 .tab-pages-wrapper {
   min-height: 100%;
-  height: auto !important;
   height: 100%;
-  margin: 0 auto -95px;
+  height: auto !important;
+  margin: 0 auto -98px auto;
   background:url(../img/background.png) repeat
 }
 
 .wrapper {
-  padding-bottom:0px
+  padding-bottom:0
 }
 
 .footer, #push {
-  height:95px
+  height:100px
 }
 
 .footer {
   background:#fff url(../img/back_bottom.png) repeat-x;
   padding:2px 0 0 0;
   margin:0;
+  float:none;
+  width:100%;
+  position:relative;
+  z-index:1;
+  clear:both
 }
