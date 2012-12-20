@@ -84,6 +84,7 @@ p, .wrapper p {
 
 .tabs {
   color:#444;
+  cursor: pointer;
   list-style:none;
   padding-left:15px;
   height:1%;
@@ -113,6 +114,7 @@ p, .wrapper p {
 .tabs .current-tab {
   background-image:url(../../img/object_manager/current_tab_left_corner.png) !important;
   color:#444 !important;
+  cursor: default;
   z-index:1 !important
 }
 
@@ -120,7 +122,7 @@ p, .wrapper p {
   background-image:url(../../img/object_manager/current_tab_right_corner.png) !important
 }
 
-input[type="text"] {
+input[type="text"], input[type="password"] {
   background:#fff;
   border:none;
   font:14px/18px Helvetica, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -133,7 +135,7 @@ input[type="text"] {
   border:1px solid transparent;
 }
 
-input[type="text"]:focus {
+input[type="text"]:focus, input[type="password"]:focus {
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(82, 168, 236, 0.6);
   outline: 0 none;
   border:1px solid #74b9ef
@@ -253,6 +255,7 @@ placeholder {
 .dashed-link {
   border-bottom-width:1px;
   border-bottom-style:dashed;
+  cursor: pointer;
   text-decoration:none;
   display:inline-block;
   line-height:14px
@@ -420,6 +423,10 @@ a.dashed-link:active {
   margin:0 auto
 }
 
+.loader {
+    margin-top: 10px;
+}
+
 .tabs-switching-loader span {
   background:url(../../img/object_manager/ajax-loader-32.gif) no-repeat right top;
   padding-right:47px;
@@ -473,3 +480,8 @@ a.dashed-link:active {
 .inner-text {
   width:60%
 }
+
+.dashed-link-pressed {
+  color: black;
+}
+
