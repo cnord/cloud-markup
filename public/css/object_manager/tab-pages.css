@@ -28,18 +28,18 @@
 }
 
 .tabs-wrapper {
-  background:url(../img/object_content_fill.png) repeat-y;
+  background:url(../../img/object_manager/object_content_fill.png) repeat-y;
   width:942px;
   margin-bottom:17px
 }
 
 .tab-bottom-fill {
-  background:url(../img/object_content_bottom_fill.png) no-repeat left bottom;
+  background:url(../../img/object_manager/object_content_bottom_fill.png) no-repeat left bottom;
   padding-bottom:37px
 }
 
 .tab-top-fill {
-  background:url(../img/object_content_top_fill.png) no-repeat;
+  background:url(../../img/object_manager/object_content_top_fill.png) no-repeat;
   padding-top:15px
 }
 
@@ -65,7 +65,7 @@
 
 .nav-tabs li a {
   display:block;
-  background-image:url(../img/tab_icons.png);
+  background-image:url(../../img/object_manager/tab_icons.png);
   background-repeat: no-repeat;
   height:60px;
   outline:none
@@ -104,7 +104,7 @@
 }
 
 .active {
-  background:url(../img/active_tab_fill.png) no-repeat;
+  background:url(../../img/object_manager/active_tab_fill.png) no-repeat;
   width:67px !important;
   height:65px !important;
   margin:-2px -5px -4px -9px !important;
@@ -176,7 +176,7 @@
 }
 
 .print-version {
-  background:url(../img/print_version_icon.png) no-repeat;
+  background:url(../../img/object_manager/print_version_icon.png) no-repeat;
   padding-left:41px;
   display:inline-block;
   width:75px;
@@ -236,7 +236,7 @@
 }
 
 .date-selection-form {
-  background:url(../img/date_selection_icon.png) no-repeat left center;
+  background:url(../../img/object_manager/date_selection_icon.png) no-repeat left center;
   padding-left:7px;
   margin-left:8px;
   height:28px
@@ -280,14 +280,14 @@
 }
 
 .datepicker-calendar {
-  background:#fff url(../img/datepicker_top_fill.png) no-repeat;
+  background:#fff url(../../img/object_manager/datepicker_top_fill.png) no-repeat;
   padding:8px 10px 9px 10px;
   border-radius:0 0 5px 5px
 }
 
 .datepicker-header {
   position:relative;
-  background:url(../img/datepicker_header.png) no-repeat;
+  background:url(../../img/object_manager/datepicker_header.png) no-repeat;
   height:39px;
   width:214px;
   margin-top:-5px
@@ -302,7 +302,7 @@
   position:absolute;
   height:15px !important;
   width:18px;
-  background:url(../img/calendar_title_nav.png) no-repeat;
+  background:url(../../img/object_manager/calendar_title_nav.png) no-repeat;
   top:15px;
   display:block;
   padding:0 !important;
@@ -494,7 +494,7 @@ tr:hover td.load-more-wrapper {
 }
 
 .label {
-  background: url(../img/label_fill.png) repeat;
+  background: url(../../img/object_manager/label_fill.png) repeat;
   border:1px solid #A6BAE8;
   display:inline-block;
   height:20px;

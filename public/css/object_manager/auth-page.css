@@ -1,6 +1,6 @@
 
 .tab-content {
-  background:#fff url(../img/bottom_fill.png) repeat-x left bottom;
+  background:#fff url(../../img/object_manager/bottom_fill.png) repeat-x left bottom;
   width:280px;
   padding:30px 20px 94px 20px;
   position:relative;
@@ -27,7 +27,7 @@ dl.user-summary {
 
 .user-summary dt {
   float:left;
-  background:url(../img/img_placeholder.png) no-repeat;
+  background:url(../../img/object_manager/img_placeholder.png) no-repeat;
   margin-right:17px
 }
 
