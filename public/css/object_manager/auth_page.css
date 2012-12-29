@@ -1,0 +1,48 @@
+
+.tab-content {
+  background: #fff url(../../img/object_manager/bottom_fill.png) repeat-x left bottom;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px #B3BEC8;
+  clear: both;
+  float: left;
+  margin: 0 99px 20px -20px;
+  padding: 30px 20px 94px 20px;
+  position: relative;
+  width: 280px;
+  z-index: 2;
+}
+
+.app-store img {
+  margin: 0 8px 10px 8px;
+}
+
+.app-store {
+  margin-left: -8px;
+}
+
+.user-summary {
+  margin-left: -29px;
+  margin-top: -1px;
+}
+
+.user-summary dt {
+  background: url(../../img/object_manager/img_placeholder.png) no-repeat;
+  float: left;
+  margin-right: 17px;
+}
+
+.user-summary dt,
+.user-summary dt span {
+  height: 174px;
+  width: 173px;
+}
+
+.user-summary dt span {
+  background-position: center center;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.user-summary dd {
+  margin-left: 190px;
+}
