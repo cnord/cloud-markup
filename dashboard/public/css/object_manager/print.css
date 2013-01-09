@@ -1,0 +1,132 @@
+
+body {
+  background: #fff;
+  font: 11pt/18px Helvetica, Helvetica Neue, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+table,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+table {
+  border-collapse: collapse;
+  color: #444;
+}
+
+td {
+  padding-bottom: 5px;
+  padding-right: 23px;
+  vertical-align: top;
+}
+
+.top-line,
+.footer,
+.nav-tabs,
+.date-selection,
+.print-version,
+.inner-text {
+  display: none;
+}
+
+.fill,
+.tab-top-fill,
+.tab-bottom-fill,
+.bottom-fill {
+  background: #fff;
+}
+
+.wrapper {
+  margin: 0 auto;
+  padding-top: 73px;
+  width: 700px;
+}
+
+h1 {
+  font: bold 29pt Calibri;
+  color: #000;
+  margin-bottom: 11px;
+}
+
+h2 {
+  font: 11pt/16px Helvetica, Arial, sans-serif;
+  margin-bottom: 1px;
+}
+
+input[type="button"],
+.light-blue-button {
+  background: linear-gradient(to bottom, #DDEFFF 0%, #a7d4ff 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ddefff), color-stop(100%, #a7d4ff));
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 1px 0 #B1B1B1;
+  color: #000;
+  cursor: pointer;
+  font: 14px/28px Helvetica, Helvetica Neue, Arial, sans-serif;
+  height: 27px;
+  margin-left: 1px;
+  margin-top: -6px;
+  overflow: visible;
+  padding: 0 6px 1px 6px;
+  vertical-align: top;
+}
+
+input[type="button"]:hover {
+  background: linear-gradient(to bottom, #B2D2F1 0%, #D7EAFA 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #B2D2F1), color-stop(100%, #D7EAFA));
+  box-shadow: inset 1px 1px 0px #A5C5E4;
+}
+
+.cell1 {
+  width: 159px;
+}
+
+.cell2 {
+  width: 28px;
+}
+
+.cell3 {
+  width: 180px;
+  padding-right: 0;
+}
+
+.disarming {
+  color: #666;
+  font-style: italic;
+}
+
+.divider-line td,
+.divider td,
+.divider-line span {
+  font-size: 0;
+  line-height: 0;
+}
+
+.divider td {
+  height: 15px;
+  padding: 0 !important;
+}
+
+.divider-line td {
+  height: 8px;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  padding-top: 2px;
+}
+
+.divider-line span {
+  background: #E4E4E4;
+  display: block;
+  height: 1px;
+  margin-top: 4px;
+  width: 100%;
+}
+
+.report-data {
+  margin-bottom: 14px;
+}
