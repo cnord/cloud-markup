@@ -331,18 +331,20 @@ a {
   width: 220px !important;
 }
 
-.footer-phone {
+.footer-info-middle-cell {
+  float: none !important;
+  margin: 0 300px 0 392px !important;
+  padding: 0;
+  width: auto !important;
+}
+
+.footer .footer-contact {
   background: url(../../img/object_manager/icon_phone.png) no-repeat;
-  display: block;
-  margin-left: -19px;
   padding-left: 19px;
 }
 
-.footer-info-middle-cell {
-  float: none !important;
-  margin: 0 300px 0 411px !important;
-  padding: 0 !important;
-  width: auto !important;
+.footer-contact p {
+  margin: 0
 }
 
 a:hover {
@@ -504,4 +506,12 @@ a.dashed-link:active {
 
 .dashed-link-pressed {
   color: black;
+}
+
+.black-color {
+  color: #000
+}
+
+.black-color:hover {
+  color: #666
 }

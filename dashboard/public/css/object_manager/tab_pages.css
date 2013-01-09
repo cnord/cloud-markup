@@ -134,7 +134,7 @@
   border-top: 1px solid #E4E4E4;
   color: #000;
   margin-top: -1px;
-  padding: 9px 30px 11px 4px;
+  padding: 4px 30px 5px 4px;
   text-align: left;
   vertical-align: top;
 }
@@ -146,8 +146,10 @@
   width: 151px;
 }
 
-.report-table td p {
-  margin-bottom: 11px;
+.report-table td p,
+.report-table th p {
+  margin:0;
+  padding:5px 0 6px 0;
 }
 
 .report-table:first-child,
@@ -523,4 +525,9 @@ tr:hover td.load-more-wrapper {
 
 .orange-highlight {
   background: #FFE27D;
+}
+
+.inner-text {
+  color: #444;
+  width: 60%;
 }
