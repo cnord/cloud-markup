@@ -5,90 +5,94 @@
 <title>Личный кабинет</title>
 <link href="public/css/object_manager/common.css" rel="stylesheet">
 <link href="public/css/object_manager/auth_page.css" rel="stylesheet">
+<link href="public/css/object_manager/sticky_footer.css" rel="stylesheet">
 </head>
 <body>
-<div class="top-line"></div>
-<div class="bottom-fill">
-  <div class="fill">
-    <div class="wrapper">
-      <h1>Личный кабинет</h1>
-      <ul class="tabs">
-        <li class="current-tab">
-          <p>Войти</p>
-        </li>
-        <li>
-          <p>Регистрация</p>
-        </li>
-      </ul>
-      <div class="tab-content">
-        <form action="" method="get" class="user-form">
-          <p>
-            <label>
-              <input type="text" placeholder="Электронная почта" class="mail-input">
-            </label>
-            <span class="message-wrapper error"><span>Введите адрес электронной почты</span></span> </p>
-          <p>
-            <label>
-              <input type="text" placeholder="Пароль" class="password-input">
-            </label>
-            <span class="message-wrapper error"><span>Введите пароль</span></span> </p>
-          <p>
-            <label>
-              <input type="text" placeholder="Ещё раз пароль" class="password-input">
-            </label>
-            <span class="message-wrapper error"><span>Введите ещё раз пароль</span></span> </p>
-          <p>
-            <label>
-              <input type="text" placeholder="Код из SMS" class="code-input">
-            </label>
-            <a href="/" class="dashed-link black-color">Не знаете код?</a><span class="message-wrapper message"><span>Свяжитесь с тех. поддержкой охранного предприятия</span></span></p>
-          <p class="button-wrapper">
-            <label class="button"><span>
-              <input type="button" value="Зарегистрироваться">
-              </span></label>
-          </p>
-        </form>
-        <form action="" method="get" class="user-form hide">
-          <p>
-            <label>
-              <input type="text" placeholder="Электронная почта" class="mail-input">
-            </label>
-            <span class="message-wrapper error"><span>Введите адрес электронной почты</span></span> </p>
-          <p>
-            <label>
-              <input type="text" placeholder="Пароль" class="password-input">
-            </label>
-            <span class="message-wrapper error"><span>Введите пароль</span></span> </p>
-          <p class="button-wrapper">
-            <label class="button"><span>
-              <input type="button" value="Войти">
-              </span></label>
-            <a href="/" class="dashed-link">Забыли пароль?</a></p>
-        </form>
+<div id="wrap">
+  <div class="top-line"></div>
+  <div class="bottom-fill">
+    <div class="fill">
+      <div class="wrapper">
+        <h1>Личный кабинет</h1>
+        <ul class="tabs">
+          <li class="current-tab">
+            <p>Войти</p>
+          </li>
+          <li>
+            <p>Регистрация</p>
+          </li>
+        </ul>
+        <div class="tab-content">
+          <form action="" method="get" class="user-form">
+            <p>
+              <label>
+                <input type="text" placeholder="Электронная почта" class="mail-input">
+              </label>
+              <span class="message-wrapper error"><span>Введите адрес электронной почты</span></span> </p>
+            <p>
+              <label>
+                <input type="text" placeholder="Пароль" class="password-input">
+              </label>
+              <span class="message-wrapper error"><span>Введите пароль</span></span> </p>
+            <p>
+              <label>
+                <input type="text" placeholder="Ещё раз пароль" class="password-input">
+              </label>
+              <span class="message-wrapper error"><span>Введите ещё раз пароль</span></span> </p>
+            <p>
+              <label>
+                <input type="text" placeholder="Код из SMS" class="code-input">
+              </label>
+              <a href="/" class="dashed-link black-color">Не знаете код?</a><span class="message-wrapper message"><span>Свяжитесь с тех. поддержкой охранного предприятия</span></span></p>
+            <p class="button-wrapper">
+              <label class="button"><span>
+                <input type="button" value="Зарегистрироваться">
+                </span></label>
+            </p>
+          </form>
+          <form action="" method="get" class="user-form hide">
+            <p>
+              <label>
+                <input type="text" placeholder="Электронная почта" class="mail-input">
+              </label>
+              <span class="message-wrapper error"><span>Введите адрес электронной почты</span></span> </p>
+            <p>
+              <label>
+                <input type="text" placeholder="Пароль" class="password-input">
+              </label>
+              <span class="message-wrapper error"><span>Введите пароль</span></span> </p>
+            <p class="button-wrapper">
+              <label class="button"><span>
+                <input type="button" value="Войти">
+                </span></label>
+              <a href="/" class="dashed-link">Забыли пароль?</a></p>
+          </form>
+        </div>
+        <div class="right-cell">
+          <div class="app-store"><img src="public/img/object_manager/apple_store.jpg"><img src="public/img/object_manager/google_play.jpg"></div>
+          В самое ближайшее время, все функции личного кабинета станут доступны через мобильное приложение для&nbsp;iPhone и&nbsp;Android.</div>
       </div>
-      <div class="right-cell">
-        <div class="app-store"><img src="public/img/object_manager/apple_store.jpg"><img src="public/img/object_manager/google_play.jpg"></div>
-        В самое ближайшее время, все функции личного кабинета станут доступны через мобильное приложение для&nbsp;iPhone и&nbsp;Android.</div>
     </div>
   </div>
-</div>
-<div class="features-wrapper">
-  <ul>
-    <li id="report-armed-disarming">
-      <p>Отчет по постановкам
-        объекта на охрану и&nbsp;снятиям
-        с охраны</p>
-    </li>
-    <li id="editing-responsible">
-      <p>Редактирование списка
-        ответственных лиц
-        по&nbsp;объекту</p>
-    </li>
-    <li id="object-card">
-      <p>Карточка охраняемого объекта.
-        Проверьте — актуальна ли&nbsp;информация!</p>
-    </li>
-  </ul>
+  <div class="features-wrapper">
+    <ul>
+      <li id="report-armed-disarming">
+        <p>Отчет по постановкам
+          объекта на охрану и&nbsp;снятиям
+          с охраны</p>
+      </li>
+      <li id="editing-responsible">
+        <p>Редактирование списка
+          ответственных лиц
+          по&nbsp;объекту</p>
+      </li>
+      <li id="object-card">
+        <p>Карточка охраняемого объекта.
+          Проверьте — актуальна ли&nbsp;информация!</p>
+      </li>
+    </ul>
+  </div>
+  <div id="push"></div>
 </div>
 <div class="footer">
   <div class="footer-info-wrapper">

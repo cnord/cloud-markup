@@ -1,0 +1,12 @@
+
+/* CSS Document */
+#wrap {
+  min-height: 100%;
+  height: 100%;
+  height: auto !important;
+  margin: 0 auto -102px auto;
+}
+
+.footer {
+  background: url(../../img/object_manager/footer_fill.png) repeat-x;
+}
