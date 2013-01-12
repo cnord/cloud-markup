@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/common.css">
+<link rel="stylesheet" href="css/add_style.css">
+<link rel="stylesheet" href="fancybox/jquery.fancybox-1.3.4.css">
+<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="js/underscore.js"></script>
+<script type="text/javascript" src="js/backbone.js"></script>
+<script type="text/javascript" src="fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+<script type="text/javascript" src="js/obj_images_loader.js"></script>
+<title>Изображения объектов Центра охраны</title>
+</head>
+<body>
+<!--
+    Полупрозрачный div с крутилкой поверх всего.
+-->
+<div id="overall-progress" style="display: none; "> <img src="img/roller2.gif" alt=""> </div>
+
+<!--
+    Место вывода общих ошибок.
+-->
+<div id="general-error" style="display: none;"></div>
+
+<!--
+    Набор миниатюр.
+-->
+<div style="display:block">
+  <div class="content-wrapper" id="thumbnails">
+    <ul>
+      <li>
+        <div class="img-wrapper">
+          <div class="message-block-wrapper">
+            <div class="message-block"><strong>Ошибка!</strong> Слишком большой размер файла. Загружайте фото не более 5 мегабайт.
+              <div class="bottom-buttons-wrapper"><a href="/" class="action red-button ok-button" >Да</a><a href="/" class="action grey-button cancel-button">Отменить</a></div>
+              <a href="/" class="action red-button basket-button"></a> </div>
+          </div>
+          <span><a href="https://cnord-object-images.s3.amazonaws.com/0608012c-8bb6-48dd-b770-0714d63dbbcf/265/7751786fdad946bba2c1b59f16081624/large.jpg" class="thumbnail"><img src="https://cnord-object-images.s3.amazonaws.com/0608012c-8bb6-48dd-b770-0714d63dbbcf/265/7751786fdad946bba2c1b59f16081624/thumbnail.jpg" alt="" title=""></a> <a href="#" class="action red-button basket-button" id="7751786fdad946bba2c1b59f16081624"></a></span></div>
+      </li>
+      <li>
+        <div class="img-wrapper"><span><a href="https://cnord-object-images.s3.amazonaws.com/0608012c-8bb6-48dd-b770-0714d63dbbcf/265/1b046decd4b44ebdb498bbd21b63a72f/large.jpg" class="thumbnail"><img src="https://cnord-object-images.s3.amazonaws.com/0608012c-8bb6-48dd-b770-0714d63dbbcf/265/1b046decd4b44ebdb498bbd21b63a72f/thumbnail.jpg" alt="" title=""></a> <a href="#" class="action red-button basket-button" id="1b046decd4b44ebdb498bbd21b63a72f"></a></span></div>
+      </li>
+      <li>
+        <div class="img-wrapper"><span><a href="https://cnord-object-images.s3.amazonaws.com/0608012c-8bb6-48dd-b770-0714d63dbbcf/265/6dbb3e5a94b84144abe6104453ecd6ec/large.jpg" class="thumbnail"><img src="https://cnord-object-images.s3.amazonaws.com/0608012c-8bb6-48dd-b770-0714d63dbbcf/265/6dbb3e5a94b84144abe6104453ecd6ec/thumbnail.jpg" alt="" title=""></a> <a href="#" class="action red-button basket-button" id="6dbb3e5a94b84144abe6104453ecd6ec"></a></span></div>
+      </li>
+      <li>
+        <div class="img-wrapper"><span><a href="https://cnord-object-images.s3.amazonaws.com/0608012c-8bb6-48dd-b770-0714d63dbbcf/265/c90326ed37284eebb21e225c5d5ea85c/large.jpg" class="thumbnail"><img src="https://cnord-object-images.s3.amazonaws.com/0608012c-8bb6-48dd-b770-0714d63dbbcf/265/c90326ed37284eebb21e225c5d5ea85c/thumbnail.jpg" alt="" title=""></a> <a href="#" class="action red-button basket-button" id="c90326ed37284eebb21e225c5d5ea85c"></a></span></div>
+      </li>
+      <li>
+        <div class="img-wrapper"><span><a href="https://cnord-object-images.s3.amazonaws.com/0608012c-8bb6-48dd-b770-0714d63dbbcf/265/a5c9bda96b90495eb32df836e388f03e/large.jpg" class="thumbnail"><img src="https://cnord-object-images.s3.amazonaws.com/0608012c-8bb6-48dd-b770-0714d63dbbcf/265/a5c9bda96b90495eb32df836e388f03e/thumbnail.jpg" alt="" title=""></a> <a href="#" class="action red-button basket-button" id="a5c9bda96b90495eb32df836e388f03e"></a></span></div>
+      </li>
+      <li>
+        <div class="img-wrapper">
+          <div class="message-block-wrapper">
+            <div class="message-block"><strong>Ошибка!</strong> Слишком большой размер файла. Загружайте фото не более 5 мегабайт.
+              <div class="bottom-buttons-wrapper"><a href="/" class="action red-button ok-button">Да</a><a href="/" class="action grey-button cancel-button">Отменить</a></div>
+              <a href="/" class="action red-button basket-button"></a> </div>
+          </div>
+          <span><a href="https://cnord-object-images.s3.amazonaws.com/0608012c-8bb6-48dd-b770-0714d63dbbcf/265/119d66324d744f38b10cdfe1505b0bf9/large.jpg" class="thumbnail"><img src="https://cnord-object-images.s3.amazonaws.com/0608012c-8bb6-48dd-b770-0714d63dbbcf/265/119d66324d744f38b10cdfe1505b0bf9/thumbnail.jpg" alt="" title=""></a> <a href="#" class="action red-button basket-button" id="119d66324d744f38b10cdfe1505b0bf9"></a></span></div>
+      </li>
+      <li>
+        <div class="img-wrapper"><span><a href="https://cnord-object-images.s3.amazonaws.com/0608012c-8bb6-48dd-b770-0714d63dbbcf/265/3bb5760898a34d1eab9c24ab7cb35e99/large.jpg" class="thumbnail"><img src="https://cnord-object-images.s3.amazonaws.com/0608012c-8bb6-48dd-b770-0714d63dbbcf/265/3bb5760898a34d1eab9c24ab7cb35e99/thumbnail.jpg" alt="" title=""></a> <a href="#" class="action red-button basket-button" id="3bb5760898a34d1eab9c24ab7cb35e99"></a></span></div>
+      </li>
+      <li>
+        <div class="img-wrapper"><span><a href="https://cnord-object-images.s3.amazonaws.com/0608012c-8bb6-48dd-b770-0714d63dbbcf/265/9b0df376056044e097c9aa69e10b2517/large.jpg" class="thumbnail"><img src="https://cnord-object-images.s3.amazonaws.com/0608012c-8bb6-48dd-b770-0714d63dbbcf/265/9b0df376056044e097c9aa69e10b2517/thumbnail.jpg" alt="" title=""></a> <a href="#" class="action red-button basket-button" id="9b0df376056044e097c9aa69e10b2517"></a></span></div>
+      </li>
+      <li>
+        <div class="img-wrapper"><span><a href="https://cnord-object-images.s3.amazonaws.com/0608012c-8bb6-48dd-b770-0714d63dbbcf/265/9622390f123f48c28b7fd6d9f3a4473b/large.jpg" class="thumbnail"><img src="https://cnord-object-images.s3.amazonaws.com/0608012c-8bb6-48dd-b770-0714d63dbbcf/265/9622390f123f48c28b7fd6d9f3a4473b/thumbnail.jpg" alt="" title=""></a> <a href="#" class="action red-button basket-button" id="9622390f123f48c28b7fd6d9f3a4473b"></a></span></div>
+      </li>
+      <li>
+        <div class="img-wrapper"><span><a href="https://cnord-object-images.s3.amazonaws.com/0608012c-8bb6-48dd-b770-0714d63dbbcf/265/df235c046db1491b86ebed4c5bb4f204/large.jpg" class="thumbnail"><img src="https://cnord-object-images.s3.amazonaws.com/0608012c-8bb6-48dd-b770-0714d63dbbcf/265/df235c046db1491b86ebed4c5bb4f204/thumbnail.jpg" alt="" title=""></a> <a href="#" class="action red-button basket-button" id="df235c046db1491b86ebed4c5bb4f204"></a></span></div>
+      </li>
+    </ul>
+  </div>
+</div>
+<div id="fancybox-tmp" style="padding-top: 50px; padding-right: 50px; padding-bottom: 50px; padding-left: 50px; "></div>
+<div id="fancybox-loading" style="display: none; ">
+  <div style="top: -80px; "></div>
+</div>
+<div id="fancybox-overlay" style="background-color: rgb(119, 119, 119); cursor: pointer; height: 560px; display: none; opacity: 0.7; "></div>
+<div id="fancybox-wrap" style="width: 596px; height: auto; top: 48px; left: 110px; display: none; ">
+  <div id="fancybox-outer">
+    <div class="fancybox-bg" id="fancybox-bg-n"></div>
+    <div class="fancybox-bg" id="fancybox-bg-ne"></div>
+    <div class="fancybox-bg" id="fancybox-bg-e"></div>
+    <div class="fancybox-bg" id="fancybox-bg-se"></div>
+    <div class="fancybox-bg" id="fancybox-bg-s"></div>
+    <div class="fancybox-bg" id="fancybox-bg-sw"></div>
+    <div class="fancybox-bg" id="fancybox-bg-w"></div>
+    <div class="fancybox-bg" id="fancybox-bg-nw"></div>
+    <div id="fancybox-content" style="border-top-width: 10px; border-right-width: 10px; border-bottom-width: 10px; border-left-width: 10px; width: 576px; height: 432px; "></div>
+    <a id="fancybox-close" style="display: none; "></a>
+    <div id="fancybox-title" style="display: none; "></div>
+    <a href="javascript:;" id="fancybox-left" style="display: none; "><span class="fancy-ico" id="fancybox-left-ico"></span></a><a href="javascript:;" id="fancybox-right" style="display: none; "><span class="fancy-ico" id="fancybox-right-ico"></span></a></div>
+</div>
+</body>
+</html>
