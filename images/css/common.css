@@ -78,7 +78,7 @@ html {
 }
 
 .picture-txt {
-  padding:4px 15px 0 15px
+  padding: 4px 15px 0 15px;
 }
 
 .editable {
@@ -160,11 +160,11 @@ html {
 }
 
 .green-button:hover {
-  background: #30A400
+  background: #30A400;
 }
 
 .green-button:active {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #066C00), color-stop(100%, #30A400))
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #066C00), color-stop(100%, #30A400));
 }
 
 .red-button {
@@ -202,7 +202,7 @@ html {
 }
 
 .red-button:hover {
-  background: #FF2600
+  background: #FF2600;
 }
 
 .basket-button:hover {
@@ -281,7 +281,7 @@ html {
 .img-title,
 .close-win {
   position: absolute;
-  z-index: 200 !important
+  z-index: 200 !important;
 }
 
 .close-win {
@@ -295,7 +295,7 @@ html {
 }
 
 .close-win:hover {
-  background-color: #525252
+  background-color: #525252;
 }
 
 .close-win:active {
@@ -317,13 +317,21 @@ html {
 
 .message-block-wrapper {
   background: url('../img/dark_texture.png') repeat;
-  height: 100%;
-  left:19px;
+  left: 19px;
   padding: 0 10px 0 10px;
   position: absolute;
-  top:0;
   width: 130px;
   z-index: 2;
+}
+
+.message-type-error {
+  bottom: 0;
+  height: 170px;
+}
+
+.message-type-delete {
+  height: 100%;
+  top: 0;
 }
 
 .message-block {
