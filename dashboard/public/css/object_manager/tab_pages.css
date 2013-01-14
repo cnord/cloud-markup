@@ -1,8 +1,11 @@
 
 .tab-pages-wrapper .footer {
-  background: none;
   margin-top: -2px;
   padding-top: 0;
+}
+
+.filled {
+  background: #fff url('../../img/object_manager/back_bottom.png') repeat-x;
 }
 
 .tab-pages-wrapper .bottom-fill {
@@ -530,4 +533,12 @@ tr:hover td.load-more-wrapper {
 .inner-text {
   color: #444;
   width: 60%;
+}
+
+.tab-pages-wrapper {
+  background: url('../../img/object_manager/background.png') repeat;
+  min-height: 100%;
+  height: 100%;
+  height: auto !important;
+  margin: 0 auto -102px auto;
 }
