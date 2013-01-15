@@ -563,7 +563,7 @@ a.dashed-link:active {
   padding-top: 0 !important;
 }
 
-.restore-password .cancel {
+.restore-password .cancel,.remind-password,.back-to-home{
   display: inline-block;
   margin-top: -8px;
   vertical-align: middle;
