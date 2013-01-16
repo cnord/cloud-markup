@@ -24,31 +24,49 @@
         <div class="tab-bottom-fill">
           <div class="tab-top-fill">
             <ul class="nav-tabs">
-              
               <li id="arm-disarm-report-tab"><a href="/"></a></li>
-              <li id="responsible-tab" class="active"><a href="/"></a></li><li id="object-info-tab"><a href="/"></a></li>
+              <li id="responsible-tab" class="active"><a href="/"></a></li>
+              <li id="object-info-tab"><a href="/"></a></li>
             </ul>
             <div class="tabs-page-tab-content">
               <h2>Ответственные по объекту</h2>
-              <input type="button" class="light-blue-btn" value="Редактировать">
-              
-              <h2>Пояснения</h2>
-              <table class="report-table call-center-table">
+              <div class="edit-responsibles">
+                <input type="button" class="light-blue-btn" value="Редактировать">
+              </div>
+              <table class="report-table responsibles-table">
                 <col class="cell1">
                 <col class="cell2">
                 <tr>
-                  <td><p>Владимир Александрович Беспрозванный</p></td>
-                  <td><span class="pin-code">Пин-код</span><span class="label">1</span><span class="label">1</span><span class="label">1</span><span class="label">1</span><a href="/" class="dashed-link change">Изменить</a></td>
+                  <td><p class="responsible-name">Владимир Александрович Беспрозванный</p>
+                    <p class="responsible-description">Заместитель руководителя режима</p>
+                    <p class="responsible-note">Звонить в первую очередь!</p></td>
+                  <td class="responsible-code">Код 2</td>
+                  <td>+7 911 904-92-72,<br>
+                    230-61-17</td>
                 </tr>
                 <tr>
-                  <td><p>Константин Константинович Константинопольский</p></td>
-                  <td><span class="pin-code">Пин-код</span><span class="label">9</span><span class="label">0</span><span class="label">3</span><span class="label">6</span><a href="/" class="dashed-link change">Изменить</a></td>
+                  <td><p class="responsible-name">Владимир Александрович Беспрозванный</p>
+                    <p class="responsible-description">Заместитель руководителя режима</p></td>
+                  <td class="responsible-code">Код 2</td>
+                  <td>+7 911 904-92-72,<br>
+                    230-61-17</td>
                 </tr>
                 <tr>
-                  <td><p>Владимир Александрович Беспрозванный</p></td>
-                  <td><span class="pin-code">Пин-код</span><span class="label">9</span><span class="label">0</span><span class="label">3</span><span class="label">6</span><a href="/" class="dashed-link change">Изменить</a></td>
+                  <td><p class="responsible-name">Владимир Александрович Беспрозванный</p>
+                    <p class="responsible-description">Заместитель руководителя режима</p></td>
+                  <td class="responsible-code">Код 2</td>
+                  <td>+7 911 904-92-72,<br>
+                    230-61-17</td>
                 </tr>
               </table>
+              <h2>Пояснения</h2>
+              <ul class="hints">
+                <li class="hint1">Потяните за иконку и измените порядок следования ответственных в том порядке, в каком звонить в случае тревоги на объекте.</li>
+                <li class="hint2">Это код пользователя на контрольной 
+                  панели объекта. Кода может и не быть, 
+                  но тогда в отчете о постановках и снятиях ответственный без кода фигурировать 
+                  не&nbsp;будет. </li>
+              </ul>
             </div>
           </div>
         </div>
@@ -63,8 +81,8 @@
 <div class="footer filled">
   <div class="footer-info-wrapper">
     <ul>
-      <li>&copy; 1990—2012 <a href="/">Арес</a></li>
-      <li class="pull-right">Powered by <a href="/">C.Nord</a></li>
+      <li>&copy; 1990—2012 <a href="#">Арес</a></li>
+      <li class="pull-right">Разработка &mdash; &laquo;<a href="#">Си-Норд</a>&raquo;</li>
       <li class="footer-info-middle-cell footer-contact">
         <p>+7(812) 677-00-19</p>
         <p><a href="mailto:support@aresspb.ru">support@aresspb.ru</a></p>

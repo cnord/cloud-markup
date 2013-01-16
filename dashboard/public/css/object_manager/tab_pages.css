@@ -1,4 +1,5 @@
 
+.hints{list-style: none;margin: 0;padding: 0;}
 .tab-pages-wrapper .footer {
   margin-top: -2px;
   padding-top: 0;
@@ -48,7 +49,7 @@
 }
 
 .tabs-page-tab-content {
-  padding: 17px 20px 0 78px;
+  padding: 17px 24px 0 80px;
 }
 
 .nav-tabs {
@@ -542,3 +543,42 @@ tr:hover td.load-more-wrapper {
   height: auto !important;
   margin: 0 auto -102px auto;
 }
+.responsibles-table{margin-bottom: 25px;margin-left: 0}
+.responsibles-table td{padding: 9px 0 12px 35px;}
+.responsibles-table .responsible-name,
+.responsibles-table .responsible-description,
+.responsibles-table .responsible-note {
+  margin: 0;
+  padding: 0
+}
+
+.responsibles-table .responsible-name {
+  background: url(../../img/object_manager/responsible_icon.png) no-repeat left 2px;
+  margin-left: -25px;
+  padding-left: 26px;
+}
+
+.responsibles-table .responsible-description {
+  color: #666;
+}
+
+.responsibles-table .responsible-note {
+  color: #f05050;margin-top: 6px;
+}
+
+.responsibles-table .responsible-code {
+  color: #666
+}
+
+.responsibles-table .cell1 {
+  width: 364px;
+}
+
+.responsibles-table .cell2 {
+  width: 80px;
+}
+.hints{float: left;padding-bottom: 15px;width: 100%;}
+.hints li{color: #444;float: left;padding-left: 60px;margin-top: 9px;}
+.hint1{background: url(../../img/object_manager/hint1_icon.png) no-repeat left 2px;padding-right: 30px;width: 300px;}
+.hint2{background: url(../../img/object_manager/hint2_icon.png) no-repeat left 2px;width: 280px;}
+.edit-responsibles{padding-top: 4px;}
