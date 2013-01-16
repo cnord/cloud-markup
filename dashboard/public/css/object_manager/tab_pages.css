@@ -1,5 +1,18 @@
 
-.hints{list-style: none;margin: 0;padding: 0;}
+.hints,
+.edit-mode table {
+  margin: 0;
+  padding: 0;
+}
+
+.edit-mode table {
+  border-collapse: collapse;
+}
+
+.hints {
+  list-style: none;
+}
+
 .tab-pages-wrapper .footer {
   margin-top: -2px;
   padding-top: 0;
@@ -543,8 +556,17 @@ tr:hover td.load-more-wrapper {
   height: auto !important;
   margin: 0 auto -102px auto;
 }
-.responsibles-table{margin-bottom: 25px;margin-left: 0;margin-top: 14px !important}
-.responsibles-table td{padding: 9px 0 12px 35px;}
+
+.responsibles-table {
+  margin-bottom: 25px;
+  margin-left: 0;
+  margin-top: 14px !important
+}
+
+.responsibles-table td {
+  padding: 9px 0 12px 35px;
+}
+
 .responsibles-table .responsible-name,
 .responsibles-table .responsible-description,
 .responsibles-table .responsible-note {
@@ -563,7 +585,8 @@ tr:hover td.load-more-wrapper {
 }
 
 .responsibles-table .responsible-note {
-  color: #f05050;margin-top: 6px;
+  color: #f05050;
+  margin-top: 6px;
 }
 
 .responsibles-table .responsible-code {
@@ -577,8 +600,87 @@ tr:hover td.load-more-wrapper {
 .responsibles-table .cell2 {
   width: 80px;
 }
-.hints{float: left;padding-bottom: 15px;width: 100%;}
-.hints li{color: #444;float: left;padding-left: 60px;margin-top: 9px;}
-.hint1{background: url(../../img/object_manager/hint1_icon.png) no-repeat left 2px;padding-right: 30px;width: 300px;}
-.hint2{background: url(../../img/object_manager/hint2_icon.png) no-repeat left 2px;width: 280px;}
-.edit-responsibles{padding-top: 4px;}
+
+.hints {
+  float: left;
+  padding-bottom: 15px;
+  width: 100%;
+}
+
+.hints li {
+  color: #444;
+  float: left;
+  padding-left: 60px;
+  margin-top: 9px;
+}
+
+.hint1 {
+  background: url(../../img/object_manager/hint1_icon.png) no-repeat left 2px;
+  padding-right: 30px;
+  width: 300px;
+}
+
+.hint2 {
+  background: url(../../img/object_manager/hint2_icon.png) no-repeat left 2px;
+  width: 280px;
+}
+
+.edit-responsibles {
+  padding-top: 4px;
+}
+
+.edit-mode {
+  background: #FFF2D9;
+  border-radius: 4px;
+  color: #444;
+  margin: 16px 0 -1px 0;
+  padding: 13px 0 14px 13px;
+}
+
+.edit-mode table {
+  width: 100%;
+}
+
+.edit-mode table .cell1 {
+  width: 378px;
+}
+
+.edit-mode table .cell2 {
+  width: auto;
+}
+
+.edit-mode table td {
+  padding-right: 10px;
+  vertical-align: top;
+}
+
+.form-enter-code {
+  padding-top: 5px;
+}
+
+.edit-mode input {
+  vertical-align: middle
+}
+
+.edit-mode input[type="text"] {
+  border-color: #FFF2D9;
+  margin: 0 5px 0 0;
+  padding: 4px 5px 4px 5px;
+  width: 67px;
+}
+
+.edit-mode input[type="text"]:focus {
+  border-color:#74b9ef;
+}
+
+.edit-mode input[type="button"] {
+  height: 26px;
+  margin: -1px 12px 0 0px;
+  width: 36px;
+}
+
+.edit-mode p {
+  margin: 0;
+  padding: 0;
+  width: 94%;
+}

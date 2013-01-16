@@ -30,7 +30,22 @@
             </ul>
             <div class="tabs-page-tab-content">
               <h2>Ответственные по объекту</h2>
-              <div class="edit-responsibles">
+              <div class="edit-responsibles edit-mode">
+                <table>
+                  <col class="cell1">
+                  <col class="cell2">
+                  <col class="cell3">
+                  <tr>
+                    <td><p>Вам отправлено СМС с кодом для подтверждения
+                        прав на редактирование ответственных:</p></td>
+                    <td class="form-enter-code"><input type="text" value="" placeholder="">
+                      <input type="button" class="light-blue-btn" value="OK">
+                      <a href="#" class="dashed-link">Отменить</a>
+                      <div class="error-mesage">Неправильный код</div></td>
+                  </tr>
+                </table>
+              </div>
+              <div class="edit-responsibles hide">
                 <input type="button" class="light-blue-btn" value="Редактировать">
               </div>
               <table class="report-table responsibles-table">
@@ -39,7 +54,8 @@
                 <tr>
                   <td><p class="responsible-name">Владимир Александрович Беспрозванный</p>
                     <p class="responsible-description">Заместитель руководителя режима</p>
-                    <p class="responsible-note">Звонить в первую очередь!</p><p class="responsible-description">ул. Тольятти, д. 54, кв. 57</p></td>
+                    <p class="responsible-note">Звонить в первую очередь!</p>
+                    <p class="responsible-description">ул. Тольятти, д. 54, кв. 57</p></td>
                   <td class="responsible-code">Код 2</td>
                   <td>+7 911 904-92-72,<br>
                     230-61-17</td>
