@@ -30,7 +30,8 @@ dl.user-summary,
 .date-selection,
 .arm-disarming-report,
 .call-center-labels,
-.datepicker-calendar table.form {
+.datepicker-calendar table.form,
+.responsibles-table {
   margin: 0;
   padding: 0;
 }
@@ -43,7 +44,8 @@ dl.user-summary,
 
 .report-table,
 .arm-disarming-report,
-.datepicker-calendar table {
+.datepicker-calendar table,
+.responsibles-table {
   border-collapse: collapse;
 }
 
@@ -533,4 +535,8 @@ a.dashed-link:active {
   height: auto !important;
   margin: 0 auto -102px auto;
 }
-.error-mesage{color: #f05050;margin-top: 8px;}
+
+.error-mesage {
+  color: #f05050;
+  margin-top: 8px;
+}
