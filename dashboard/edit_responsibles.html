@@ -8,6 +8,76 @@
 <link href="public/css/object_manager/modal.css" rel="stylesheet">
 </head>
 <body>
+<!-- Modal -->
+<div id="myModal" class="modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" >
+  <div class="modal-tab-bottom">
+    <div class="modal-tab-top">
+      <div class="modal-tab-fill">
+        <div class="modal-fill">
+          <ul class="nav-tabs">
+            <li id="edit-item-tab" class="active"><a href="#"></a></li>
+            <li id="delete-item-tab"><a href="#"></a></li>
+          </ul>
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+          </div>
+          <div class="modal-body">
+            <form class="form-horizontal">
+              <div class="control-group">
+                <label class="control-label" for="inputName">Ф. И. О.:</label>
+                <div class="controls">
+                  <input type="text" id="inputName" placeholder="Владимир Александрович Беспрозванный">
+                  <span class="required-fields-marker">*</span>
+                  <p class="error-mesage hide">Не верный формат кода.</p>
+                </div>
+              </div>
+              <div class="control-group">
+                <label class="control-label" for="inputPost">Должность:</label>
+                <div class="controls">
+                  <input type="text" id="inputPost" placeholder="Заместитель руководителя режима" class="span1">
+                  <p class="error-mesage">Не верный формат кода.</p>
+                </div>
+              </div>
+              <div class="control-group">
+                <label class="control-label" for="inputMobPhone">Моб. телефон:</label>
+                <div class="controls"><span class="plus">+</span>
+                  <input type="text" class="span3" placeholder="7" id="inputMobPhone">
+                  <input type="text" class="span2" placeholder="921 951-21-23">
+                  <span class="required-fields-marker">*</span> </div>
+              </div>
+              <div class="control-group">
+                <label class="control-label" for="inputPhone">Телефон:</label>
+                <div class="controls">
+                  <input type="text" id="inputPhone" placeholder="951-21-23" class="span4">
+                  <p class="error-mesage">Не верный формат кода.</p>
+                </div>
+              </div>
+              <div class="control-group">
+                <label class="control-label" for="inputCode">Код на панели:</label>
+                <div class="controls">
+                  <input type="text" class="span5" placeholder="2" id="inputCode">
+                  число <a href="#" class="remark">Что это?</a>
+                  <p class="comment">Код ответственного в контрольной панели. Указав код, в отчёте по снятиям и постановкам будет фигурировать фамилия соответствующего ответственного.</p>
+                </div>
+              </div>
+              <div class="control-group">
+                <label class="control-label" for="inputComment">Комментарий:</label>
+                <div class="controls">
+                  <input type="text" id="inputComment" placeholder="Звонить в первую очередь!">
+                  <p class="error-mesage">Не верный формат кода.</p>
+                </div>
+              </div>
+              <div class="controls">
+                <input type="button" value="Сохранить" class="light-blue-btn">
+                <a href="#" class="dashed-link">Отменить</a> </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal end-->
 <div class="tab-pages-wrapper">
   <div class="top-line">
     <div class="wrapper">
@@ -36,7 +106,7 @@
                 <input type="button" class="light-blue-btn " value="Добавить">
               </div>
               <div class="edit-responsibles-wrapper">
-                <div class="responsible"><a href="#" class="drag"></a>
+                <div class="responsible">
                   <table class="responsibles-table">
                     <col class="cell1">
                     <col class="cell2">
@@ -53,13 +123,13 @@
                     </tr>
                   </table>
                 </div>
-                <div class="responsible drag-item">
+                <div class="responsible">
                   <table class="responsibles-table">
                     <col class="cell1">
                     <col class="cell2">
                     <col class="cell3">
                     <tr>
-                      <td><p class="responsible-name-with-icon">Владимир Александрович Беспрозванный</p>
+                      <td><p class="responsible-name">Владимир Александрович Беспрозванный</p>
                         <p class="responsible-description">Заместитель руководителя режима</p>
                         <p class="responsible-note">Звонить в первую очередь!</p>
                         <p class="responsible-description">ул. Тольятти, д. 54, кв. 57</p></td>
@@ -70,7 +140,7 @@
                     </tr>
                   </table>
                 </div>
-                <div class="responsible hold-item"><a href="#" class="drag"></a>
+                <div class="responsible">
                   <table class="responsibles-table">
                     <col class="cell1">
                     <col class="cell2">
@@ -119,6 +189,6 @@
     </ul>
   </div>
 </div>
-
+<div class="modal-backdrop fade in"></div>
 </body>
 </html>

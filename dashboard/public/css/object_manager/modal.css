@@ -1,0 +1,275 @@
+
+.modal.fade.in {
+  top: 10%;
+}
+
+.modal.fade {
+  top: -25%;
+  transition: opacity 0.3s linear 0s, top 0.3s ease-out 0s;
+}
+
+.fade.in {
+  opacity: 1;
+}
+
+.modal {
+  background-clip: padding-box;
+  left: 50%;
+  margin-left: -350px;
+  outline: medium none;
+  position: fixed;
+  top: 10%;
+  width: 650px;
+  z-index: 1050;
+}
+
+.modal-fill {
+  background-color: #FFF;
+  border-radius: 6px 6px 6px 6px;
+  float: left;
+  margin-bottom: -25px;
+  margin-top: -25px;
+  min-height: 200px;
+  position: relative;
+  width: 100%;
+}
+
+.modal-tab-bottom,
+.modal-tab-top {
+  float: left;
+  width: 650px;
+}
+
+.modal-tab-bottom {
+  background: url('../../img/object_manager/modal/tabs_bottom.png') no-repeat left bottom;
+  padding-bottom: 25px;
+}
+
+.modal-tab-top {
+  background:url('../../img/object_manager/modal/tabs_top.png') no-repeat left top;
+  padding-top: 25px;
+}
+
+.modal-tab-fill {
+  background: url('../../img/object_manager/modal/tabs_fill.png') repeat;
+  float: left;
+  padding-left: 60px;
+  width: 590px;
+}
+
+.modal-backdrop,
+.modal-backdrop.fade.in {
+  opacity: 0.8;
+}
+
+.modal-backdrop {
+  background-color: #000;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 1040;
+}
+
+.fade {
+  opacity: 0;
+  transition: opacity 0.15s linear 0s;
+}
+
+.modal .nav-tabs {
+  left: -60px;
+  position: absolute;
+  top: 16px;
+}
+
+.modal .nav-tabs li a {
+  background-image: url(../../img/object_manager/modal/tab_icons.png);
+  background-repeat: no-repeat;
+  display: block;
+  height: 60px;
+  outline: none;
+}
+
+#edit-item-tab a {
+  background-position: 7px 8px;
+}
+
+#edit-item-tab.active a {
+  background-position: -54px 8px;
+}
+
+#add-item-tab a {
+  background-position: 7px -58px;
+}
+
+#add-item-tab.active a {
+  background-position: -55px -103px;
+}
+
+#delete-item-tab.active a {
+  background-position: 16px -51px;
+}
+
+#delete-item-tab a {
+  background-position: -63px -52px;
+}
+
+.close {
+  background: #B5B5B5 url(../../img/object_manager/modal/close.png) no-repeat;
+  border: none;
+  color: #FFF;
+  cursor: pointer;
+  height:  24px;
+  position: absolute;
+  right: 8px;
+  top: 8px;
+  width: 24px;
+}
+
+.close:hover {
+  background: #D2D2D2 url(../../img/object_manager/modal/close_hover.png) no-repeat;
+}
+
+.form-horizontal .control-group:after {
+  clear: both;
+}
+
+.form-horizontal .control-group:before,
+.form-horizontal .control-group:after {
+  content: "";
+  display: table;
+  line-height: 0;
+}
+
+.form-horizontal {
+  color: #444;
+  margin-top: 11px;
+}
+
+.form-horizontal .control-group {
+  margin-bottom: 11px;
+}
+
+.form-horizontal .control-label {
+  float: left;
+  padding-top: 8px;
+  text-align: right;
+  width: 117px;
+}
+
+label {
+  color: #444;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-horizontal .controls {
+  margin-left: 126px;
+}
+
+.modal-body {
+  padding: 28px 30px 40px 30px;
+}
+
+input[type="text"] {
+  height: 14px;
+  margin-right: 8px;
+  padding-bottom: 8px;
+  padding-top: 8px;
+  width: 332px;
+}
+
+.required-fields-marker {
+  color: #d71919;
+  display: inline-block;
+  font-size: 36px;
+  position: relative;
+  top: 15px;
+}
+
+.error-mesage {
+  margin-bottom: 0;
+  margin-top: 5px;
+}
+
+input[type="text"].span1 {
+  width: 292px;
+}
+
+input[type="text"].span2 {
+  width: 132px;
+}
+
+input[type="text"].span3 {
+  width: 17px;
+}
+
+input[type="text"].span4 {
+  width: 162px;
+}
+
+input[type="text"].span5 {
+  width: 32px;
+}
+
+.plus {
+  display: inline-block;
+  text-align: center;
+  width: 30px;
+}
+
+.comment {
+  margin-bottom: 0;
+  margin-top: 3px;
+}
+
+.remark,
+.remark:hover {
+  border-bottom: 1px dashed #000;
+  color: #000;
+  margin-left: 10px;
+  text-decoration: none;
+}
+
+.controls .dashed-link {
+  margin-left: 10px;
+  margin-top: 7px;
+}
+
+.modal h3 {
+  color: #000;
+  font: 24px Calibri, Helvetica, Arial, sans-serif;
+  margin: 0 0 13px 0;
+  padding: 0;
+}
+
+.delete-person {
+  background: #FFF2D9;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  padding: 10px 11px;
+}
+
+.red-btn {
+  background: linear-gradient(to bottom, #FF5C5C 0%, #B22F2F 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #FF5C5C), color-stop(100%, #B22F2F));
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 1px 2px #B1B1B1;
+  color: #fff;
+  cursor: pointer;
+  font: 14px/28px Helvetica, Helvetica Neue, Arial, sans-serif;
+  height: 27px;
+  overflow: visible;
+  padding: 0 9px 1px 9px;
+  vertical-align: top;
+}
+
+.delete-responsibles .modal-body {
+  min-height: 210px;
+}
+
+.delete-btn {
+  width: 75px;
+}
