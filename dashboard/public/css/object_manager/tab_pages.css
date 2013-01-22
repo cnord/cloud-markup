@@ -1,4 +1,13 @@
 
+.choice-object-list {
+  margin: 0;
+  padding: 0;
+}
+
+.choice-object-list {
+  list-style: none;
+}
+
 .tab-pages-wrapper .footer {
   margin-top: -2px;
   padding-top: 0;
@@ -541,4 +550,86 @@ tr:hover td.load-more-wrapper {
   height: 100%;
   height: auto !important;
   margin: 0 auto -102px auto;
+}
+
+.open-choice-list,
+.choice-object-button {
+  background: url('../../img/object_manager/choice_object_fill.png') repeat;
+}
+
+.choice-object-wrapper,
+.choice-object-button {
+  position: absolute;
+}
+
+.choice-object-button {
+  border-radius: 4px;
+  height: 36px;
+  right: 20px;
+  top: -33px;
+  width: 39px;
+}
+
+.choice-object-button a {
+  background: url(../../img/object_manager/choice_obj_navig.png) no-repeat -1px 6px;
+  display: block;
+  height: 33px;
+  width: 39px;
+}
+
+.open-choice-list .choice-object-button a {
+  background-position: -39px 4px;
+}
+
+.choice-object-wrapper {
+  padding: 10px;
+  right: 23px;
+  top: -40px;
+  width: 340px;
+  z-index: 1;
+}
+
+.open-choice-list {
+  border-radius: 10px;
+  box-shadow: 0px 2px 3px #AFBBC5;
+}
+
+.choice-object {
+  background: #fff;
+  border-radius: 8px;
+  display: none;
+  padding: 10px 10px 6px 14px;
+}
+
+.open-choice-list .choice-object {
+  display: block;
+}
+
+.choice-object-list {
+  margin-bottom: 10px;
+}
+
+.choice-object-list a,
+.choice-object-list p {
+  margin-left: -4px;
+  padding: 3px 0 3px 4px;
+}
+
+.choice-object-list a {
+  display: block;
+  text-decoration: none;
+}
+
+.choice-object-list a:hover {
+  background: #FFF9B8;
+}
+
+.choice-object-list p {
+  margin-bottom: 0;
+}
+
+.comment {
+  color: #444;
+  font-size: 84%;
+  line-height: 1.24em;
 }
