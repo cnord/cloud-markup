@@ -584,7 +584,7 @@ tr:hover td.load-more-wrapper {
 .choice-object-wrapper {
   padding: 10px;
   right: 23px;
-  top: -38px;
+  top: -36px;
   width: 340px;
   z-index: 1;
 }
@@ -634,5 +634,5 @@ tr:hover td.load-more-wrapper {
 .comment {
   color: #444;
   font-size: 84%;
-  line-height: 1.24em;
+  line-height: 15px;
 }
