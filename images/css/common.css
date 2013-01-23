@@ -176,14 +176,22 @@ html {
 }
 
 .basket-button {
-  background: url(../img/del_bask.png) no-repeat center center, -webkit-gradient(linear, left top, left bottom, color-stop(0%, #FF2600), color-stop(100%, #C71B00));
-  background: url(../img/del_bask.png) no-repeat center center, -ms-linear-gradient(top, #FF2600, #C71B00);
+  background: url('../img/del_bask.png') no-repeat center center, -webkit-gradient(linear, left top, left bottom, color-stop(0%, #FF2600), color-stop(100%, #C71B00));
+  background: url('../img/del_bask.png') no-repeat center center, -moz-linear-gradient(top, #FF2600, #C71B00);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient (GradientType=0, startColorstr=#FF2600, endColorstr=#C71B00)";
+  background: url('../img/del_bask.png') no-repeat center center, -ms-linear-gradient(top, #FF2600, #C71B00);
   height: 20px;
   padding: 4px 0 0 0 !important;
   z-index: 1;
 }
 
-/*url(../img/del_bask.png) no-repeat center center,*/
+.basket-button span {
+  background: url('../img/del_bask.png') no-repeat center 1px;
+  display: block;
+  height: 20px;
+  width: 23px;
+}
+
 .bottom-buttons-wrapper .red-button {
   border-radius: 4px 4px 0 0;
 }
