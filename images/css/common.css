@@ -177,10 +177,13 @@ html {
 
 .basket-button {
   background: url(../img/del_bask.png) no-repeat center center, -webkit-gradient(linear, left top, left bottom, color-stop(0%, #FF2600), color-stop(100%, #C71B00));
+  background: url(../img/del_bask.png) no-repeat center center, -ms-linear-gradient(top, #FF2600, #C71B00);
   height: 20px;
   padding: 4px 0 0 0 !important;
+  z-index: 1;
 }
 
+/*url(../img/del_bask.png) no-repeat center center,*/
 .bottom-buttons-wrapper .red-button {
   border-radius: 4px 4px 0 0;
 }
@@ -336,4 +339,13 @@ html {
 
 .message-block {
   padding-top: 5px;
+}
+
+.thumbnail {
+  position: relative;
+  z-index: 0;
+}
+
+.action {
+  z-index: 1;
 }
