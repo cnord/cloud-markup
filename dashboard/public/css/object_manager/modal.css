@@ -184,6 +184,7 @@ input[type="text"] {
   color: #d71919;
   display: inline-block;
   font-size: 36px;
+  height: 24px;
   position: relative;
   top: 15px;
 }
@@ -224,10 +225,14 @@ input[type="text"].span5 {
   margin-top: 3px;
 }
 
-.remark,
-.remark:hover {
-  border-bottom: 1px dashed #000;
+.open-layer-remark,
+.open-layer-remark:hover {
   color: #000;
+}
+
+.remark {
+  border-bottom-style: dashed;
+  border-bottom-width: 1px;
   margin-left: 10px;
   text-decoration: none;
 }

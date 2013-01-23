@@ -362,10 +362,6 @@ a:hover {
   color: #519cef;
 }
 
-a.dashed-link:active {
-  color: #000;
-}
-
 .hide {
   display: none;
 }
