@@ -97,7 +97,7 @@
   background-position: left top;
 }
 
-#responsible-tab a {
+#customer-tab a {
   background-position: left -60px;
 }
 
@@ -113,7 +113,7 @@
   background-position: -76px 1px !important;
 }
 
-#responsible-tab.active a {
+#customer-tab.active a {
   background-position: -76px -59px !important;
 }
 
@@ -557,50 +557,50 @@ tr:hover td.load-more-wrapper {
   margin: 0 auto -102px auto;
 }
 
-.responsibles-table {
+.customers-table {
   margin-bottom: 25px;
   margin-left: 0;
   margin-top: 14px !important
 }
 
-.responsibles-table td {
+.customers-table td {
   padding: 9px 0 12px 33px;
   vertical-align: top;
 }
 
-.responsibles-table .responsible-name,
-.responsibles-table .responsible-description,
-.responsibles-table .responsible-note {
+.customers-table .customer-name,
+.customers-table .customer-description,
+.customers-table .customer-note {
   margin: 0;
   padding: 0
 }
 
-.responsibles-table .responsible-name,
-.responsibles-table .responsible-name-with-icon {
-  background: url(../../img/object_manager/responsible_icon.png) no-repeat left 2px;
+.customers-table .customer-name,
+.customers-table .customer-name-with-icon {
+  background: url(../../img/object_manager/customer_icon.png) no-repeat left 2px;
   margin-bottom: 0;
   margin-left: -25px;
   padding-left: 26px;
 }
 
-.responsibles-table .responsible-description {
+.customers-table .customer-description {
   color: #666;
 }
 
-.responsibles-table .responsible-note {
+.customers-table .customer-note {
   color: #f05050;
   margin-top: 6px;
 }
 
-.responsibles-table .responsible-code {
+.customers-table .customer-code {
   color: #666
 }
 
-.responsibles-table .cell1 {
+.customers-table .cell1 {
   width: 364px;
 }
 
-.responsibles-table .cell2 {
+.customers-table .cell2 {
   width: 80px;
 }
 
@@ -628,7 +628,7 @@ tr:hover td.load-more-wrapper {
   width: 280px;
 }
 
-.edit-responsibles {
+.edit-customers {
   padding-top: 4px;
 }
 
@@ -693,13 +693,13 @@ tr:hover td.load-more-wrapper {
   width: 94%;
 }
 
-.edit-responsibles-wrapper {
+.edit-customers-wrapper {
   margin-right: 140px;
   margin-top: -2px;
   padding-bottom: 20px;
 }
 
-.responsible {
+.customer {
   background: #FFF2D9;
   border: 3px solid #FFF2D9;
   border-radius: 4px;
@@ -731,11 +731,11 @@ tr:hover td.load-more-wrapper {
   width: 31px;
 }
 
-.responsible .responsibles-table {
+.customer .customers-table {
   margin: 0 !important;
 }
 
-.responsible .responsible-name {
+.customer .customer-name {
   background: none;
 }
 
@@ -754,16 +754,16 @@ tr:hover td.load-more-wrapper {
   margin: 5px 0 0 9px;
 }
 
-.responsible .responsibles-table td {
+.customer .customers-table td {
   padding-bottom: 5px;
   padding-top: 5px;
 }
 
-.responsible .responsibles-table .cell1 {
+.customer .customers-table .cell1 {
   width: 362px;
 }
 
-.responsible .responsibles-table .cell3 {
+.customer .customers-table .cell3 {
   width: 161px;
 }
 
@@ -772,6 +772,6 @@ tr:hover td.load-more-wrapper {
   width: 120px;
 }
 
-.edit-responsibles-wrapper .responsible {
+.edit-customers-wrapper .customer {
   margin-bottom: 10px;
 }

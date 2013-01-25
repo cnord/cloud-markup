@@ -31,7 +31,7 @@ dl.user-summary,
 .arm-disarming-report,
 .call-center-labels,
 .datepicker-calendar table.form,
-.responsibles-table {
+.customers-table {
   margin: 0;
   padding: 0;
 }
@@ -45,7 +45,7 @@ dl.user-summary,
 .report-table,
 .arm-disarming-report,
 .datepicker-calendar table,
-.responsibles-table {
+.customers-table {
   border-collapse: collapse;
 }
 
@@ -496,7 +496,7 @@ a:hover {
   padding-right: 20px;
 }
 
-#editing-responsible p {
+#editing-customer p {
   background-image: url(../../img/object_manager/icon2.png);
   padding-right: 20px;
 }
