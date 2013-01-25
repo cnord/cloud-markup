@@ -153,7 +153,7 @@
 
 .form-horizontal .control-label {
   float: left;
-  padding-top: 8px;
+  padding-top: 5.7pt;
   text-align: right;
   width: 117px;
 }
@@ -269,6 +269,17 @@ input[type="text"].span5 {
   overflow: visible;
   padding: 0 9px 1px 9px;
   vertical-align: top;
+}
+
+.red-btn:hover {
+  background: #FD5B5B;
+  box-shadow: none;
+}
+
+.red-btn:active {
+  background: linear-gradient(to bottom, #B22F2F 0%, #FD5B5B 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #B22F2F), color-stop(100%, #FD5B5B));
+  box-shadow: 0 1px 2px #B1B1B1;
 }
 
 .delete-responsibles .modal-body {
