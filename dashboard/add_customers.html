@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>Магазин Дикси</title>
-<link href="public/css/object_manager/common.css" rel="stylesheet">
-<link href="public/css/object_manager/tab_pages.css" rel="stylesheet">
-<link href="public/css/object_manager/modal.css" rel="stylesheet">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Магазин Дикси</title>
+  <link href="public/css/object_manager/common.css" rel="stylesheet">
+  <link href="public/css/object_manager/tab_pages.css" rel="stylesheet">
+  <link href="public/css/object_manager/modal.css" rel="stylesheet">
 </head>
 <body>
 <!-- Modal -->
-<div id="myModal" class="modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" >
+<div  class="modal" tabindex="-1">
   <div class="modal-tab-bottom">
     <div class="modal-tab-top">
       <div class="modal-tab-fill">
@@ -18,64 +18,67 @@
             <li id="add-item-tab" class="active"><a href="#"></a></li>
           </ul>
           <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+            <button type="button" class="close"  ></button>
           </div>
           <div class="modal-body">
             <form class="form-horizontal">
               <div class="control-group">
-                <label class="control-label" for="inputName">Ф. И. О.:</label>
+                <label class="control-label" for="input-name">Ф. И. О.:</label>
                 <div class="controls">
-                  <input type="text" id="inputName" placeholder="">
+                  <input type="text" id="input-name" placeholder="">
                   <span class="required-fields-marker">*</span>
-                  <p class="error-mesage hide">Не верный формат кода.</p>
+                  <p class="error-message hide">Неверный формат кода.</p>
                 </div>
               </div>
               <div class="control-group">
-                <label class="control-label" for="inputPost">Должность:</label>
+                <label class="control-label" for="input-post">Должность:</label>
                 <div class="controls">
-                  <input type="text" id="inputPost" placeholder="" class="span1">
-                  <p class="error-mesage hide">Не верный формат кода.</p>
+                  <input type="text" id="input-post" placeholder="" class="span1">
+                  <p class="error-message hide">Неверный формат кода.</p>
                 </div>
               </div>
               <div class="control-group">
-                <label class="control-label" for="inputMobPhone">Моб. телефон:</label>
-                <div class="controls"><span class="plus">+</span>
-                  <input type="text" class="span3" value="7" id="inputMobPhone">
+                <label class="control-label" for="input-mob-phone">Моб. телефон:</label>
+                <div class="controls">
+                  <span class="plus">+</span>
+                  <input type="text" class="span3" value="7" id="input-mob-phone">
                   <input type="text" class="span2" placeholder="">
-                  <span class="required-fields-marker">*</span> </div>
-              </div>
-              <div class="control-group">
-                <label class="control-label" for="inputPhone">Телефон:</label>
-                <div class="controls">
-                  <input type="text" id="inputPhone" placeholder="" class="span4">
-                  <p class="error-mesage hide">Не верный формат кода.</p>
+                  <span class="required-fields-marker">*</span>
                 </div>
               </div>
               <div class="control-group">
-                <label class="control-label" for="inputCode">Код на панели:</label>
+                <label class="control-label" for="input-phone">Телефон:</label>
                 <div class="controls">
-                  <input type="text" class="span5" id="inputCode">
+                  <input type="text" id="input-phone" placeholder="" class="span4">
+                  <p class="error-message hide">Неверный формат кода.</p>
+                </div>
+              </div>
+              <div class="control-group">
+                <label class="control-label" for="input-code">Код на панели:</label>
+                <div class="controls">
+                  <input type="text" class="span5" id="input-code">
                   число <a href="#" class="remark">Что это?</a><!--добавляем класс open-layer-remark -->
                   <p class="comment hide">Код ответственного в контрольной панели. Указав код, в&nbsp;отчёте по снятиям и постановкам будет фигурировать фамилия соответствующего ответственного.</p>
                 </div>
               </div>
               <div class="control-group">
-                <label class="control-label" for="inputAddress">Адрес:</label>
+                <label class="control-label" for="input-address">Адрес:</label>
                 <div class="controls">
-                  <input type="text" id="inputAddress" placeholder="">
-                  <p class="error-mesage hide">Не верный формат кода.</p>
+                  <input type="text" id="input-address" placeholder="">
+                  <p class="error-message hide">Неверный формат кода.</p>
                 </div>
               </div>
               <div class="control-group">
-                <label class="control-label" for="inputComment">Комментарий:</label>
+                <label class="control-label" for="input-comment">Комментарий:</label>
                 <div class="controls">
-                  <input type="text" id="inputComment" placeholder="">
-                  <p class="error-mesage hide">Не верный формат кода.</p>
+                  <input type="text" id="input-comment" placeholder="">
+                  <p class="error-message hide">Неверный формат кода.</p>
                 </div>
               </div>
               <div class="controls">
                 <input type="button" value="Сохранить" class="light-blue-btn">
-                <a href="#" class="dashed-link">Отменить</a> </div>
+                <a href="#" class="dashed-link">Отменить</a>
+              </div>
             </form>
           </div>
         </div>
@@ -118,14 +121,18 @@
                     <col class="cell2">
                     <col class="cell3">
                     <tr>
-                      <td><p class="customer-name">Владимир Александрович Беспрозванный</p>
+                      <td>
+                        <p class="customer-name">Владимир Александрович Беспрозванный</p>
                         <p class="customer-description">Заместитель руководителя режима</p>
                         <p class="customer-note">Звонить в первую очередь!</p>
-                        <p class="customer-description">ул. Тольятти, д. 54, кв. 57</p></td>
+                        <p class="customer-description">ул. Тольятти, д. 54, кв. 57</p>
+                      </td>
                       <td class="customer-code">Код 2</td>
                       <td>+7 911 904-92-72,<br>
                         230-61-17</td>
-                      <td><input type="button" class="light-blue-btn edit-button" value=""></td>
+                      <td>
+                        <input type="button" class="light-blue-btn edit-button" value="">
+                      </td>
                     </tr>
                   </table>
                 </div>
@@ -135,14 +142,18 @@
                     <col class="cell2">
                     <col class="cell3">
                     <tr>
-                      <td><p class="customer-name">Владимир Александрович Беспрозванный</p>
+                      <td>
+                        <p class="customer-name">Владимир Александрович Беспрозванный</p>
                         <p class="customer-description">Заместитель руководителя режима</p>
                         <p class="customer-note">Звонить в первую очередь!</p>
-                        <p class="customer-description">ул. Тольятти, д. 54, кв. 57</p></td>
+                        <p class="customer-description">ул. Тольятти, д. 54, кв. 57</p>
+                      </td>
                       <td class="customer-code">Код 2</td>
                       <td>+7 911 904-92-72,<br>
                         230-61-17</td>
-                      <td><input type="button" class="light-blue-btn edit-button" value=""></td>
+                      <td>
+                        <input type="button" class="light-blue-btn edit-button" value="">
+                      </td>
                     </tr>
                   </table>
                 </div>
@@ -152,14 +163,18 @@
                     <col class="cell2">
                     <col class="cell3">
                     <tr>
-                      <td><p class="customer-name">Владимир Александрович Беспрозванный</p>
+                      <td>
+                        <p class="customer-name">Владимир Александрович Беспрозванный</p>
                         <p class="customer-description">Заместитель руководителя режима</p>
                         <p class="customer-note">Звонить в первую очередь!</p>
-                        <p class="customer-description">ул. Тольятти, д. 54, кв. 57</p></td>
+                        <p class="customer-description">ул. Тольятти, д. 54, кв. 57</p>
+                      </td>
                       <td class="customer-code">Код 2</td>
                       <td>+7 911 904-92-72,<br>
                         230-61-17</td>
-                      <td><input type="button" class="light-blue-btn edit-button" value=""></td>
+                      <td>
+                        <input type="button" class="light-blue-btn edit-button" value="">
+                      </td>
                     </tr>
                   </table>
                 </div>
@@ -177,11 +192,12 @@
         </div>
       </div>
       <div class="inner-text">
-        <p>Если вы видите устаревшую, не актуальную информацию о вашем объекте, пожалуйста, напишите об этом на <a href="mailto:support@aresspb.ru">support@aresspb.ru</a>.</p>
+        <p>Если вы видите устаревшую, неактуальную информацию о вашем объекте, пожалуйста, напишите об этом на <a href="mailto:support@aresspb.ru">support@aresspb.ru</a>.</p>
       </div>
     </div>
   </div>
-  <div id="push"></div>
+  <div id="push">
+  </div>
 </div>
 <div class="footer filled">
   <div class="footer-info-wrapper">
@@ -195,6 +211,7 @@
     </ul>
   </div>
 </div>
-<div class="modal-backdrop fade in"></div>
+<div class="modal-backdrop fade in">
+</div>
 </body>
 </html>
