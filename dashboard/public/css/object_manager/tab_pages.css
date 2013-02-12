@@ -565,7 +565,8 @@ tr:hover td.load-more-wrapper {
 
 .customers-table td {
   padding: 9px 0 12px 33px;
-  vertical-align: top; word-break:break-all;
+  vertical-align: top;
+  word-break: break-all;
 }
 
 .customers-table .customer-name,
@@ -594,7 +595,6 @@ tr:hover td.load-more-wrapper {
 
 .customers-table .customer-code {
   color: #666;
- 
   word-break: break-strict;
   word-wrap: break-word;
 }
