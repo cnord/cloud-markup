@@ -558,17 +558,17 @@ a.dashed-link:active {
   position: static;
 }
 
-.new-parol {
+.new-password {
   margin-top: -3px;
   padding-top: 0 !important;
 }
 
-.restore-password .cancel,.remind-password,.back-to-home{
+.restore-password .cancel,.forgot-password,.back-to-home{
   display: inline-block;
   margin-top: -8px;
   vertical-align: middle;
 }
 
-.new-parol .message-wrapper {
+.new-password .message-wrapper {
   left: 180px;
 }
