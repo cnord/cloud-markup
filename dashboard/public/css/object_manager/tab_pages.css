@@ -13,10 +13,6 @@
   padding-top: 0;
 }
 
-.filled {
-  background: #fff url('../../img/object_manager/back_bottom.png') repeat-x;
-}
-
 .tab-pages-wrapper .bottom-fill {
   margin-bottom: 0;
 }

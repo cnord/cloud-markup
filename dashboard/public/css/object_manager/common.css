@@ -217,10 +217,10 @@ placeholder {
   background: #FFE27D;
 }
 
-.button-wrapper {
+.user-form .button-wrapper {
   bottom: 10px;
   left: 20px;
-  position: absolute !important;
+  position: absolute;
 }
 
 .button {
@@ -512,7 +512,7 @@ a.dashed-link:active {
 }
 
 .inner-text {
-  width: 60%;
+  width: 58%;
 }
 
 .dashed-link-pressed {
@@ -536,4 +536,43 @@ a.dashed-link:active {
   height: 100%;
   height: auto !important;
   margin: 0 auto -102px auto;
+}
+
+#upper-content-wrapper.fill {
+  background: url('../../img/object_manager/background.png') repeat;
+  padding:0
+}
+
+.filled {
+  background: #fff url('../../img/object_manager/back_bottom.png') repeat-x;
+}
+
+/*restore-password begin*/
+.restore-password {
+  padding-top: 16px;
+}
+
+.restore-password .user-form {
+  clear: both;
+  padding-top: 12px;
+}
+
+.restore-password .button-wrapper {
+  margin-top: 20px;
+  position: static;
+}
+
+.new-password {
+  margin-top: -3px;
+  padding-top: 0 !important;
+}
+
+.restore-password .cancel,.forgot-password,.back-to-home{
+  display: inline-block;
+  margin-top: -8px;
+  vertical-align: middle;
+}
+
+.new-password .message-wrapper {
+  left: 180px;
 }
