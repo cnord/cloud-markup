@@ -116,6 +116,14 @@
   background-position: -76px -175px !important;
 }
 
+#video-tab a {
+  background-position: left -222px;
+}
+
+#video-tab.active a {
+  background-position: -76px -222px !important;
+}
+
 .active {
   background: url(../../img/object_manager/active_tab_fill.png) no-repeat;
   border-top-color: transparent !important;

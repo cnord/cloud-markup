@@ -537,3 +537,53 @@ a.dashed-link:active {
   height: auto !important;
   margin: 0 auto -102px auto;
 }
+
+.video-item {
+  display: inline-block;
+  padding: 4px 0 16px 0
+}
+
+.video-item h3 {
+  background: #FEF2DA;
+  border-radius: 3px 3px 0 0;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+  padding: 11px 10px 9px 10px
+}
+
+.video-action,
+.video-action a {
+  height: 73px;
+  width: 73px;
+}
+
+.video-action {
+  left: 50%;
+  margin-left: -36px;
+  margin-top: -36px;
+  position: absolute;
+  top: 50%;
+}
+
+.video-action a,
+.video-wrapper img {
+  display: block;
+}
+
+.video-play {
+  background: url(../../img/object_manager/video_play.png) no-repeat
+}
+
+.video-loading {
+  background: url(../../img/object_manager/video_loading.png) no-repeat
+}
+
+.video-loading img {
+  display: inline;
+  left: 50%;
+  margin-left: -16px;
+  margin-top: -16px;
+  position: relative;
+  top: 50%;
+}
