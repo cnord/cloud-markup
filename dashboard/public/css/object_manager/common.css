@@ -562,6 +562,7 @@ a.dashed-link:active {
   left: 50%;
   margin-left: -36px;
   margin-top: -36px;
+  opacity: 0.8;
   position: absolute;
   top: 50%;
 }
