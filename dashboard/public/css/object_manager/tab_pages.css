@@ -2,6 +2,7 @@
 .choice-object-list {
   margin: 0;
   padding: 0;
+  word-break: break-all;
 }
 
 .choice-object-list {
@@ -606,13 +607,16 @@ tr:hover td.load-more-wrapper {
 }
 
 .choice-object-list {
+  height: 240px;
   margin-bottom: 10px;
+  margin-left: -4px;
+  overflow: auto;
 }
 
 .choice-object-list a,
 .choice-object-list p {
-  margin-left: -4px;
   padding: 3px 0 3px 4px;
+  position: relative;
 }
 
 .choice-object-list a {
@@ -631,5 +635,5 @@ tr:hover td.load-more-wrapper {
 .comment {
   color: #444;
   font-size: 84%;
-  line-height: 1.24em;
+  line-height: 15px;
 }
