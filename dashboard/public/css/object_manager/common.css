@@ -451,16 +451,19 @@ a.dashed-link:active {
 	padding: 24px 0 0 0;
 	vertical-align: top
 }
-.edit-title-wrapper input[type="text"] {
+.edit-title-wrapper input[type="text"]{
 	border-color: #DFE8ED;
 	box-sizing: border-box;
 	color: #000;
+	line-height: 54px;
 	margin-bottom: 15px;
 	margin-left: -20px;
 	padding-left: 19px;
-	padding-top: 9px;
+	/*padding-top: 9px;*/
+	padding-top: 0;padding-bottom: 0;
 	width: 542px;
 }
+input[type="text"]::-webkit-input-placeholder{}
 .edit-title-wrapper input[type="button"] {
 	margin-top: 15px;
 	margin-right: 12px;
