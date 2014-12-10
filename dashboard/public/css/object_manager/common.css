@@ -91,7 +91,7 @@ p,
   padding-top: 28px;
 }
 
-.wrapper h1 {
+.wrapper h1,.edit-title-wrapper input[type="text"] {
   color: #000;
   font: bold 36px/36px Calibri, Helvetica, Arial, sans-serif;
   margin-bottom: 27px;
@@ -537,3 +537,10 @@ a.dashed-link:active {
   height: auto !important;
   margin: 0 auto -102px auto;
 }
+.title-wrapper{position: relative}
+.edit{background: url(../../img/object_manager/edit.png) no-repeat;display: inline-block;height: 24px;margin-left: 20px; position:absolute; bottom: 7px;width: 25px;}
+.edit:hover{background-position: right top;cursor: pointer}
+.edit-title-wrapper{padding: 24px 0 0 0;vertical-align: top}
+.edit-title-wrapper input[type="text"]{border-color: #DFE8ED;color: #000;height: 39px;margin-bottom: 15px;margin-left: -20px;padding-left: 19px;padding-top: 9px;width: 542px;}
+.edit-title-wrapper input[type="button"]{margin-top: 15px;margin-right: 12px; vertical-align: central}
+.edit-title-wrapper .dashed-link{top: -7px; position: relative}
