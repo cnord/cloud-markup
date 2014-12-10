@@ -541,6 +541,10 @@ a.dashed-link:active {
 .edit{background: url(../../img/object_manager/edit.png) no-repeat;display: inline-block;height: 24px;margin-left: 20px; position:absolute; bottom: 7px;width: 25px;}
 .edit:hover{background-position: right top;cursor: pointer}
 .edit-title-wrapper{padding: 24px 0 0 0;vertical-align: top}
-.edit-title-wrapper input[type="text"]{border-color: #DFE8ED;color: #000;height: 39px;margin-bottom: 15px;margin-left: -20px;padding-left: 19px;padding-top: 9px;width: 542px;}
-.edit-title-wrapper input[type="button"]{margin-top: 15px;margin-right: 12px; vertical-align: central}
-.edit-title-wrapper .dashed-link{top: -7px; position: relative}
+
+.edit-title-wrapper input[type="text"]{border-color: #DFE8ED; box-sizing: border-box;color: #000;margin-bottom: 15px;margin-left: -20px;padding-left: 19px;padding-top: 9px;width: 542px;}
+.edit-title-wrapper input[type="button"]{margin-top: 15px;margin-right: 12px; vertical-align: middle}
+.edit-title-wrapper .dashed-link{border: none !important;display: table-cell; line-height: normal;position: relative; vertical-align: middle}
+.edit-title-wrapper .dashed-link span{border-bottom-style: dashed;border-bottom-width: 1px;}
+.edit-title-wrapper input[type="text"],.edit-buttons{float: left;height: 58px; vertical-align: middle}
+.edit-buttons{ display: table}
